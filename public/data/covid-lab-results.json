@@ -1,0 +1,47 @@
+[
+  {
+    "reportDate": "2022-04-02",
+    "examinationDate": "2022-04-02",
+    "samplingTime": "06:00",
+    "reportName": "BIOCOVID - DETECTION DU GENOME DU SARS COV−2 ET CRIBLAGE DES MUTATIONS PAR PCR (Covid19)",
+    "procedureType": "RT-PCR",
+    "labName": "LABORATOIRE VAULX−EN−VELIN − GRANDE ILE",
+    "doctor": "Dr Sans ordonnance AMELI COVID",
+    "clinic": null,
+    "referenceNumber": "GI220402078",
+    "patientDetails": {
+      "name": "Mr Benoit MARECHAL",
+      "dob": "27−08−1999",
+      "sex": "M"
+    },
+    "filePath": "ocr_doc_p102_p103.pdf",
+    "sampleType": "Naso−pharyngé",
+    "techniqueDetails": "MGI Easy Extraction for Viral DNA RNA by Magnetic Beads / ID SARS−CoV−2 L452R E484K K417N Pentaplex REVOLUTION. Changement de technique à partir du 12/01/2022.",
+    "sections": [
+      {
+        "sectionName": "Résultat SARS−CoV−2",
+        "findings": [
+          "Recherche positive.",
+          "Détection de la mutation K417N."
+        ],
+        "overallResult": "Positive"
+      },
+      {
+        "sectionName": "SARS−CoV−2 RNA screening (RT−PCR) (ATM)",
+        "comment": "sample taken by nasopharyngeal swab",
+        "findings": [
+          "Positive search.",
+          "Detection of the K417N mutation."
+        ],
+        "overallResult": "Positive"
+      }
+    ],
+    "additionalNotes": [
+      "Le document que vous lisez est un compte−rendu de biologie médicale qui ne peut donc en aucun cas contenir des QR codes certifiés par les seules autorités sanitaires.",
+      "Vous avez dû recevoir un SMS de la part de SIDEP. Ce SMS possède un lien sécurisé unique menant au portail citoyen. Après une étape de contrôle de votre date de naissance et l'envoi d'un mot de passe via un nouvel SMS, vous accéderez à votre certificat de test.",
+      "Les données vous concernant collectées dans le cadre du présent examen biologique, en lien avec l'épidémie du Covid−19, sont enregistrées dans le système d'information national dénommé SI−DEP.",
+      "Mon test est positif − Je contacte mon médecin traitant − Je reste isolé et respecte les gestes barrières − Je liste les personnes que j'aurais pu contaminer (...)"
+    ],
+    "overallConclusion": "Recherche positive pour SARS-CoV-2 avec détection de la mutation K417N."
+  }
+]

@@ -1,0 +1,135 @@
+[
+  {
+    "reportDate": "2023-05-17",
+    "samplingDate": "2023-05-10",
+    "reportName": "MycoTOX PROFILE",
+    "labName": "Mosaic Diagnostics (Great Plains Laboratory, LLC.)",
+    "doctor": "CHRISTIAN BOYER",
+    "receptionNumber": "1192086",
+    "patientDetails": {
+      "name": "Benoit Marechal",
+      "dob": "1999-08-27",
+      "sex": "M"
+    },
+    "creatinineValue": "219.31 mg/dl",
+    "filePath": "ocr_doc_p112_p115.pdf",
+    "sections": [
+      {
+        "sectionName": "Aspergillus",
+        "tests": [
+          {
+            "name": "Aflatoxine M1",
+            "value": "0.00",
+            "unit": "ng/g créatinine",
+            "referenceRange": "< 0.5",
+            "status": "normal"
+          },
+          {
+            "name": "Ochratoxine A",
+            "value": "10.80",
+            "unit": "ng/g créatinine",
+            "referenceRange": "< 7.5",
+            "status": "high"
+          },
+          {
+            "name": "Gliotoxine",
+            "value": "0.00",
+            "unit": "ng/g créatinine",
+            "referenceRange": "< 200",
+            "status": "normal"
+          }
+        ]
+      },
+      {
+        "sectionName": "Penicillium",
+        "tests": [
+          {
+            "name": "Stérigmatocystine",
+            "value": "0.00",
+            "unit": "ng/g créatinine",
+            "referenceRange": "< 0.4",
+            "status": "normal"
+          },
+          {
+            "name": "Acide mycophénolique",
+            "value": "< 37.40",
+            "unit": "ng/g créatinine",
+            "referenceRange": "< 37.4",
+            "status": "normal"
+          }
+        ]
+      },
+      {
+        "sectionName": "Stachybotrys",
+        "tests": [
+          {
+            "name": "Roridine E",
+            "value": "0.00",
+            "unit": "ng/g créatinine",
+            "referenceRange": "< 0.2",
+            "status": "normal"
+          },
+          {
+            "name": "Verrucarin A",
+            "value": "0.00",
+            "unit": "ng/g créatinine",
+            "referenceRange": "< 1.3",
+            "status": "normal"
+          }
+        ]
+      },
+      {
+        "sectionName": "Fusarium",
+        "tests": [
+          {
+            "name": "Enniatine",
+            "value": "0.00",
+            "unit": "ng/g créatinine",
+            "referenceRange": "< 0.3",
+            "status": "normal"
+          },
+          {
+            "name": "Zéaralénone",
+            "value": "0.00",
+            "unit": "ng/g créatinine",
+            "referenceRange": "< 3.2",
+            "status": "normal"
+          }
+        ]
+      },
+      {
+        "sectionName": "Chaetomium globosum",
+        "tests": [
+          {
+            "name": "Chaetoglobosin A",
+            "value": "0.00",
+            "unit": "ng/g créatinine",
+            "referenceRange": "< 10",
+            "status": "normal"
+          }
+        ]
+      },
+      {
+        "sectionName": "Multiples espèces de moisissures",
+        "tests": [
+          {
+            "name": "Dihydrocitrinone",
+            "value": "38.05",
+            "unit": "ng/g créatinine",
+            "referenceRange": "< 25",
+            "status": "high"
+          }
+        ]
+      }
+    ],
+    "labComments": [
+      "* Les taux normaux fûrent établis à partir de la moyenne + 2 fois l'écart-type.",
+      "Le Great Plains Laboratory, LLC., Overland Park, Kansas a réalisé ce test en outre d’avoir développé et déterminé les caractéristiques de son exécution. La U.S. Food and Drug Administration (FDA) n’a pas évalué ce test car elle n’est pas en charge de réguler ce genre de tests."
+    ],
+    "interpretiveInformation": {
+      "Ochratoxine": "L’ochratoxine A (OTA) est une mycotoxine néphrotoxique, toxique pour l’immunité et cancérogène. Cette substance chimique est produite par des moisissures dans les familles Aspergillus et Penicillium. L’exposition à ces substances a lieu particulièrement dans les bâtiments endommagés par l’eau travers mais une exposition mineure est possible à travers des aliments contaminés tels que les céréales, les jus de raisin, les produits laitiers, les épices, le vin, les raisins et le café. L’exposition à l’OTA peut également avoir lieu à travers de l’inhalation dans des bâtiments endommagés par l’eau. L’OTA peut provoquer néphropathie et des effets neurologiques négatifs. Des études ont démontré que l’OTA peut provoquer des dégâts oxydatifs importants dans des multiples régions cérébrales en outre d’être très néphrotoxique. Les taux de dopamine dans les cerveaux de rats tombent après l’exposition à l’OTA. Quelques études viennent à l’appui de l’hypothèse que l’OTA peut contribuer au développement de maladies neurodégénératives tels que les maladies d’Alzheimer et de Parkinson. Le traitement doit être visé à éliminer la source de l’exposition en utilisant des substances tels que la cholestyramine, le charbon et la phénylalanine oraux car ils peuvent empêcher l’absorption des toxines trouvées dans les aliments. Les antioxydants tels que les vitamines A, E, C, NAC, l’acide rosmarinique et le glutathione liposomal individuellement ou combinés atténuent les effets oxydatifs de la toxine. Les argiles bentonite ou zéolite réduisent l’absorption de plusieurs mycotoxines trouvées dans les aliments, entre lesquels l’OTA. Quelques études ont démontré que l’OTA est présente dans la sueur, ce qui vient à l’appui de l’utilisation du sauna pour l’excrétion d’ OTA. La répétition du test entre 3 et 6 mois après avoir commencé le traitement est recommandée. (PMID : 17195275, 16293235, 27521635, 22069626, 24792326, 22253638, 16140385, 2467220, 16844142, 19148691, 22069658, 16019795, 18286 403, 15781206, 11439224, 17092826, 32710148)",
+      "Citrinine (dihydrocitrinone)": "La citrinine (CTN) est une mycotoxine produite par les genres de moisissures Aspergillus, Penicillium et Monascus. L’exposition à la CTN peut conduire à la néphropathie à cause de sa capacité d’augmenter la perméabilité des membranes mitochondriales dans les reins. Les trois façons les plus communes d’avoir une exposition sont l’ingestion, l’inhalation et le contact avec la peau. Dans des études avec des rats Il a été démontré que la CTN est cancérogène, tandis que plusieurs études ont corrélé son exposition avec la diminution de la réponse immunitaire. La répétition du test entre 3 et 6 mois après avoir commencé le traitement est recommandée. (PMID : 11567776, 24048364, 10788357)"
+    },
+    "overallConclusion": "Mycotoxin profile shows elevated levels of Ochratoxine A and Dihydrocitrinone."
+  }
+]

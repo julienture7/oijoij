@@ -1,0 +1,73 @@
+[
+  {
+    "reportDate": "2024-02-09",
+    "examinationDate": "2024-02-07",
+    "reportName": "COMPTE RENDU D'EXPLORATION DU SYSTEME NERVEUX AUTONOME",
+    "procedureType": "Exploration du Système Nerveux Autonome",
+    "labName": "CHU Toulouse, Hôpital de Rangueil",
+    "service": "SERVICES DE CARDIOLOGIE, POLE CARDIO-VASCULAIRE ET METABOLIQUE",
+    "doctorPerforming": "Pr Jean-Michel SENARD",
+    "referringDoctor": "Dr Pierre ROBIN, 13006 MARSEILLE 06",
+    "patientDetails": {
+      "name": "Monsieur MARECHAL Benoit",
+      "dob": "27/08/1999",
+      "addressProvidedToLab": "Mr Benoit MARECHAL, 34320 ROUJAN"
+    },
+    "filePath": "ocr_doc_p13_p15.pdf",
+    "reasonForExam": "Intolérance à l'effort évoluant depuis environ 6 ans dans un contexte clinique systémique évoquant le diagnostic d'encéphalomyélite myalgique (Code CIM G93.3). Une infection COVID de mars 2023 a aggravé la situation.",
+    "measurements": {
+      "poids": "71 kg",
+      "taille": "181 cm",
+      "imc": "21,7 kg/m²"
+    },
+    "methods": "Photopléthysmographie digitale permettant l'enregistrement simultané de la pression artérielle (FINOMETER® et DINAMAP®) et ECG. Les épreuves réalisées étudient le fonctionnement des baroréflexe dans son ensemble (Epreuve d'orthostatisme passif à 80°, rapport 30/15), le versant orthosympathique (manœuvre de Valsalva, épreuve de contraction isométrique) ou parasympathique (épreuve de respiration ample, rapport de Valsalva). Mesure des conductances cutanées selon la méthode Sudoscan®. Selon les cas, d'autres analyses sont réalisées : variabilité sinusale, résistances périphériques, baroréflexe spontané.",
+    "clinicalEvaluation": {
+      "scoreEwing": "2/3",
+      "rapportValsalva": "NF (Non Fait ou Non Fourni)"
+    },
+    "autonomicTests": [
+      {
+        "testName": "Respiration Ample (bpm)",
+        "value": "23 (1)",
+        "interpretation": null
+      },
+      {
+        "testName": "Rapport 30/15",
+        "value": "1,11 (1)",
+        "interpretation": null
+      },
+      {
+        "testName": "Contraction isométrique (mmHg)",
+        "value": "non faite",
+        "interpretation": null
+      },
+      {
+        "testName": "Variation PA orthostatisme (mmHg)",
+        "value": "-10/+5 (0)",
+        "interpretation": "0: Résultat normal, 0.5: Résultat intermédiaire, 1: Résultat anormal. Patient's result (0) is normal."
+      }
+    ],
+    "otherMeasures": {
+      "secretionSudorale_SUDOSCAN_uS": {
+        "MS": "85 (0)",
+        "MI": "86 (0)"
+      },
+      "pressionArterielleCentrale_mmHg": null,
+      "vitesseOndeDePouls_ms": null
+    },
+    "interpretation": {
+      "quality": "Bonne qualité",
+      "generalFindings": "Les tests d'orthostatisme actif et passif ont comporté la réalisation des deux tests, la mesure des fluctuations de la fréquence cardiaque lors de l'épreuve de respiration ample, la quantification des fluctuations de la fréquence cardiaque survenant immédiatement après le lever actif et la mesure des conductances cutanées par la méthode Sudoscan®. L'exploration a été complétée par une analyse spectrale de la variabilité sinusale et par une mesure des résistances périphériques et la valeur du baro réflexe spontané en position couchée, puis en position debout.",
+      "keyResults": [
+        "La pression artérielle est normale (131/73 mmHg).",
+        "La fréquence cardiaque moyenne est aux alentours de 82 bpm avec un rythme sinusal.",
+        "Parmi les tests réalisés à la recherche d'une neuropathie autonome, les réponses aux deux tests évaluant de façon spécifique (épreuve de respiration ample) ou non spécifique (rapport 30/15) l'activité parasympathique à destinée cardiaque aboutissent à des réponses inférieures aux normes pour l'âge.",
+        "Les épreuves d'orthostatisme (actif et passif) permettent d'identifier une accélération anormale de la fréquence cardiaque (supérieure à 30 bpm) symptomatique et sans chute tensionnelle, ce qui correspond à un syndrome de tachycardie posturale orthostatique.",
+        "L'analyse spectrale de la variabilité sinusale retrouve une multiplication par 4 de la valeur du rapport BF/HF témoignant d'une capacité d'activation sympathique lors du levé.",
+        "Les valeurs maximales de conductances cutanées explorant l'activité du contingent somatique du système nerveux autonome sont normales aux quatre membres."
+      ]
+    },
+    "overallConclusion": "Au total : il existe bien quelques éléments « dysautonomiques » d’interprétation difficile en raison d’un déséquilibre de la balance sympatho vagale patent avec une hyperactivité sympathique. Tout ceci s’intègre parfaitement bien dans le cadre d’une tachycardie posturale associée à une encéphalomyélite myalgique. Ce diagnostic d’exclusion suppose bien entendu que toutes les explorations réalisées jusqu’à présent et dont je n’ai pas le détail s’avèrent normales (cardiologique, biologique…). En pratique, il faut proscrire toute réactivation intensive à l’effort qui va aggraver la situation. Il doit bien entendu poursuivre une activité physique modérée en se référant à la technique de PACING dont je lui ai expliqué les principes et qu’il pourra trouver bien détaillé sur le site internet « One million missing ». Pour la tachycardie posturale qui est invalidante, je vous propose d’introduire sous votre surveillance un médicament bêtabloquant de votre choix ou le cas échéant du PROCORALAN à dose modérée.",
+    "signature": "Pr JEAN-MICHEL SENARD"
+  }
+]

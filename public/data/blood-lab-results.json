@@ -1,0 +1,2069 @@
+{
+  "Leucocytes": {
+    "unit": "G/L",
+    "referenceRange": "4.0-11.0",
+    "category": "Hématologie",
+    "history": [
+      { "date": "2021-10-31", "value": 5.7 },
+      { "date": "2021-11-02", "value": 3.4 },
+      { "date": "2023-05-10", "value": 4.59 },
+      { "date": "2024-02-14", "value": 3.17 },
+      { "date": "2024-05-31", "value": 3.19 },
+      { "date": "2024-06-24", "value": 3.82 },
+      { "date": "2025-02-11", "value": 3.99 }
+    ]
+  },
+  "Hématies": {
+    "unit": "T/L",
+    "referenceRange": "4.40-5.70",
+    "category": "Hématologie",
+    "history": [
+      { "date": "2021-10-31", "value": 5.37 },
+      { "date": "2021-11-02", "value": 5.21 },
+      { "date": "2023-05-10", "value": 5.37 },
+      { "date": "2024-02-14", "value": 5.23 },
+      { "date": "2024-05-31", "value": 4.99 },
+      { "date": "2024-06-24", "value": 5.26 },
+      { "date": "2025-02-11", "value": 5.48 }
+    ]
+  },
+  "Hémoglobine": {
+    "unit": "g/dL",
+    "referenceRange": "13.0-17.5",
+    "category": "Hématologie",
+    "history": [
+      { "date": "2021-10-31", "value": 16.4 },
+      { "date": "2021-11-02", "value": 15.8 },
+      { "date": "2023-05-10", "value": 163 },
+      { "date": "2024-02-14", "value": 15.7 },
+      { "date": "2024-05-31", "value": 153 },
+      { "date": "2024-06-24", "value": 155 },
+      { "date": "2025-02-11", "value": 16.3 }
+    ]
+  },
+  "Hématocrite": {
+    "unit": "%",
+    "referenceRange": "39.0-49.0",
+    "category": "Hématologie",
+    "history": [
+      { "date": "2021-10-31", "value": 47.1 },
+      { "date": "2021-11-02", "value": 45.7 },
+      { "date": "2023-05-10", "value": 47.8 },
+      { "date": "2024-02-14", "value": 45.5 },
+      { "date": "2024-05-31", "value": 44.5 },
+      { "date": "2024-06-24", "value": 46.6 },
+      { "date": "2025-02-11", "value": 48.2 }
+    ]
+  },
+  "VGM": {
+    "unit": "fL",
+    "referenceRange": "80-95",
+    "category": "Hématologie",
+    "history": [
+      { "date": "2021-10-31", "value": 87.6 },
+      { "date": "2021-11-02", "value": 87.7 },
+      { "date": "2023-05-10", "value": 89.0 },
+      { "date": "2024-02-14", "value": 87 },
+      { "date": "2024-05-31", "value": 89.2 },
+      { "date": "2024-06-24", "value": 88.6 },
+      { "date": "2025-02-11", "value": 88 }
+    ]
+  },
+  "TCMH": {
+    "unit": "pg",
+    "referenceRange": "27.0-33.0",
+    "category": "Hématologie",
+    "history": [
+      { "date": "2021-10-31", "value": 30.5 },
+      { "date": "2021-11-02", "value": 30.3 },
+      { "date": "2023-05-10", "value": 30.4 },
+      { "date": "2024-02-14", "value": 30.0 },
+      { "date": "2024-05-31", "value": 30.7 },
+      { "date": "2024-06-24", "value": 29.5 },
+      { "date": "2025-02-11", "value": 29.7 }
+    ]
+  },
+  "CCMH": {
+    "unit": "g/dL",
+    "referenceRange": "32.0-36.0",
+    "category": "Hématologie",
+    "history": [
+      { "date": "2021-10-31", "value": 34.8 },
+      { "date": "2021-11-02", "value": 34.6 },
+      { "date": "2023-05-10", "value": 341 },
+      { "date": "2024-02-14", "value": 34.5 },
+      { "date": "2024-05-31", "value": 344 },
+      { "date": "2024-06-24", "value": 333 },
+      { "date": "2025-02-11", "value": 33.8 }
+    ]
+  },
+  "Indice de distribution des GR (IDR)": {
+    "unit": "%",
+    "referenceRange": "11.0-16.0",
+    "category": "Hématologie",
+    "history": [
+      { "date": "2021-10-31", "value": 12.9 },
+      { "date": "2021-11-02", "value": 13.1 },
+      { "date": "2024-02-14", "value": 11.9 },
+      { "date": "2025-02-11", "value": 11.9 }
+    ]
+  },
+  "Plaquettes": {
+    "unit": "G/L",
+    "referenceRange": "150-400",
+    "category": "Hématologie",
+    "history": [
+      { "date": "2021-10-31", "value": 166 },
+      { "date": "2021-11-02", "value": 144 },
+      { "date": "2023-05-10", "value": 176 },
+      { "date": "2024-02-14", "value": 164 },
+      { "date": "2024-05-31", "value": 154 },
+      { "date": "2024-06-24", "value": 172 },
+      { "date": "2025-02-11", "value": 177 }
+    ]
+  },
+  "VPM (Volume Plaquettaire Moyen)": {
+    "unit": "fL",
+    "referenceRange": "7.4-10.8",
+    "category": "Hématologie",
+    "history": [
+      { "date": "2023-05-10", "value": 11.1 },
+      { "date": "2024-02-14", "value": 10.8 },
+      { "date": "2025-02-11", "value": 11.4 }
+    ]
+  },
+  "Indice Distribution Plaquettaire (IDP/PDW)": {
+    "unit": "fL",
+    "referenceRange": "11.0-18.0",
+    "category": "Hématologie",
+    "history": [
+      { "date": "2024-02-14", "value": 13.9 },
+      { "date": "2025-02-11", "value": 13.9 }
+    ]
+  },
+  "Polynucléaires neutrophiles (Abs)": {
+    "unit": "G/L",
+    "referenceRange": "1.50-7.50",
+    "category": "Hématologie",
+    "history": [
+      { "date": "2021-10-31", "value": 3.14 },
+      { "date": "2021-11-02", "value": 1.54 },
+      { "date": "2023-05-10", "value": 1.98 },
+      { "date": "2024-02-14", "value": 1.64 },
+      { "date": "2024-05-31", "value": 1.77 },
+      { "date": "2024-06-24", "value": 2.06 },
+      { "date": "2025-02-11", "value": 2.04 }
+    ]
+  },
+  "Polynucléaires éosinophiles (Abs)": {
+    "unit": "G/L",
+    "referenceRange": "0.05-0.59",
+    "category": "Hématologie",
+    "history": [
+      { "date": "2021-10-31", "value": 0.27 },
+      { "date": "2021-11-02", "value": 0.20 },
+      { "date": "2023-05-10", "value": 0.13 },
+      { "date": "2024-02-14", "value": 0.12 },
+      { "date": "2024-05-31", "value": 0.11 },
+      { "date": "2024-06-24", "value": 0.11 },
+      { "date": "2025-02-11", "value": 0.14 }
+    ]
+  },
+  "Polynucléaires basophiles (Abs)": {
+    "unit": "G/L",
+    "referenceRange": "0.00-0.10",
+    "category": "Hématologie",
+    "history": [
+      { "date": "2021-10-31", "value": 0.03 },
+      { "date": "2021-11-02", "value": 0.02 },
+      { "date": "2023-05-10", "value": 0.03 },
+      { "date": "2024-02-14", "value": 0.01 },
+      { "date": "2024-05-31", "value": 0.02 },
+      { "date": "2024-06-24", "value": 0.02 },
+      { "date": "2025-02-11", "value": 0.02 }
+    ]
+  },
+  "Lymphocytes (Abs)": {
+    "unit": "G/L",
+    "referenceRange": "1.30-4.00",
+    "category": "Hématologie",
+    "history": [
+      { "date": "2021-10-31", "value": 1.77 },
+      { "date": "2021-11-02", "value": 1.32 },
+      { "date": "2023-05-10", "value": 1.95 },
+      { "date": "2024-02-14", "value": 1.15 },
+      { "date": "2024-05-31", "value": 0.95 },
+      { "date": "2024-06-24", "value": 1.28 },
+      { "date": "2025-02-11", "value": 1.41 }
+    ]
+  },
+  "Monocytes (Abs)": {
+    "unit": "G/L",
+    "referenceRange": "0.20-0.80",
+    "category": "Hématologie",
+    "history": [
+      { "date": "2021-10-31", "value": 0.49 },
+      { "date": "2021-11-02", "value": 0.33 },
+      { "date": "2023-05-10", "value": 0.45 },
+      { "date": "2024-02-14", "value": 0.25 },
+      { "date": "2024-05-31", "value": 0.34 },
+      { "date": "2024-06-24", "value": 0.34 },
+      { "date": "2025-02-11", "value": 0.38 }
+    ]
+  },
+  "Erythroblastes (%)": {
+    "unit": "%",
+    "referenceRange": "0",
+    "category": "Hématologie",
+    "history": [
+      { "date": "2024-05-31", "value": 0.0 },
+      { "date": "2024-06-24", "value": 0.3 }
+    ]
+  },
+  "Myélémie (%)": {
+    "unit": "%",
+    "referenceRange": "<2",
+    "category": "Hématologie",
+    "history": [
+      { "date": "2024-05-31", "value": 0.0 },
+      { "date": "2024-06-24", "value": 0.3 }
+    ]
+  },
+  "Numération des Réticulocytes": {
+    "unit": "G/L",
+    "referenceRange": "20-120",
+    "category": "Hématologie",
+    "history": [
+      { "date": "2021-11-02", "value": 37.6 }
+    ]
+  },
+  "Vitesse de Sédimentation (1ère heure)": {
+    "unit": "mm",
+    "referenceRange": "<15",
+    "category": "Inflammation",
+    "history": [
+      { "date": "2023-05-10", "value": 2 },
+      { "date": "2024-02-14", "value": 2 },
+      { "date": "2024-05-31", "value": 2 },
+      { "date": "2025-02-11", "value": 2 }
+    ]
+  },
+  "Créatinine": {
+    "unit": "µmol/L",
+    "referenceRange": "59-104",
+    "category": "Fonction Rénale",
+    "history": [
+      { "date": "2021-10-31", "value": 75 },
+      { "date": "2023-05-10", "value": 79.0 },
+      { "date": "2024-02-14", "value": 80 }
+    ]
+  },
+  "DFG (MDRD)": {
+    "unit": "mL/min/1.73m²",
+    "referenceRange": ">60",
+    "category": "Fonction Rénale",
+    "history": [
+      { "date": "2021-10-31", "value": ">90" }
+    ]
+  },
+  "DFG (CKD-EPI)": {
+    "unit": "mL/min/1.73m²",
+    "referenceRange": ">90",
+    "category": "Fonction Rénale",
+    "history": [
+      { "date": "2021-10-31", "value": ">90" },
+      { "date": "2023-05-10", "value": 120 },
+      { "date": "2024-02-14", "value": 118 }
+    ]
+  },
+  "Urée (Azotémie)": {
+    "unit": "mmol/L",
+    "referenceRange": "2.8-8.1",
+    "category": "Biochimie Sanguine",
+    "history": [
+      { "date": "2021-10-31", "value": 4.4 }
+    ]
+  },
+  "Sodium": {
+    "unit": "mmol/L",
+    "referenceRange": "136-145",
+    "category": "Ionogramme",
+    "history": [
+      { "date": "2021-10-31", "value": 139 },
+      { "date": "2021-11-02", "value": 142 },
+      { "date": "2023-05-10", "value": 143 },
+      { "date": "2024-02-14", "value": 140 },
+      { "date": "2025-02-11", "value": 141 }
+    ]
+  },
+  "Potassium": {
+    "unit": "mmol/L",
+    "referenceRange": "3.5-5.1",
+    "category": "Ionogramme",
+    "history": [
+      { "date": "2021-10-31", "value": 4.0 },
+      { "date": "2021-11-02", "value": 4.2 },
+      { "date": "2023-05-10", "value": 3.3 },
+      { "date": "2024-02-14", "value": 4.0 },
+      { "date": "2025-02-11", "value": 4.1 }
+    ]
+  },
+  "Chlore": {
+    "unit": "mmol/L",
+    "referenceRange": "98-107",
+    "category": "Ionogramme",
+     "history": [
+      { "date": "2021-10-31", "value": 101 },
+      { "date": "2021-11-02", "value": 107 },
+      { "date": "2023-05-10", "value": 103 },
+      { "date": "2025-02-11", "value": 107 }
+    ]
+  },
+  "Réserve alcaline (HCO3-)": {
+    "unit": "mmol/L",
+    "referenceRange": "22.0-29.0",
+    "category": "Ionogramme",
+    "history": [
+      { "date": "2021-10-31", "value": 27.2 },
+      { "date": "2021-11-02", "value": 25.9 },
+      { "date": "2023-05-10", "value": 25 },
+      { "date": "2025-02-11", "value": 22 }
+    ]
+  },
+  "Protides": {
+    "unit": "g/L",
+    "referenceRange": "66-87",
+    "category": "Biochimie Sanguine",
+    "history": [
+      { "date": "2021-10-31", "value": 73 },
+      { "date": "2021-11-02", "value": 65 },
+      { "date": "2024-02-14", "value": 74 },
+      { "date": "2025-02-11", "value": 72 }
+    ]
+  },
+  "Pré-ALBUMINE": {
+    "unit": "g/L",
+    "referenceRange": "0.20-0.40",
+    "category": "Protéines Sériques",
+    "history": [
+      { "date": "2023-05-10", "value": 0.26 }
+    ]
+  },
+  "Glycémie à jeun": {
+    "unit": "mmol/L",
+    "referenceRange": "4.11-6.05",
+    "category": "Métabolisme Glucidique",
+    "history": [
+      { "date": "2021-10-31", "value": 5.13 },
+      { "date": "2021-11-01", "value": 4.46 },
+      { "date": "2021-11-02", "value": 4.57 },
+      { "date": "2023-05-10", "value": 5.10 },
+      { "date": "2024-02-14", "value": 5.36 },
+      { "date": "2025-02-11", "value": 5.47 }
+    ]
+  },
+  "Formule HOMA": {
+    "unit": null,
+    "referenceRange": "<2.5 (optimal)",
+    "category": "Métabolisme Glucidique",
+    "history": [
+      { "date": "2023-05-10", "value": 2.32 },
+      { "date": "2024-02-14", "value": 2.406 },
+      { "date": "2025-02-11", "value": 3.476 }
+    ]
+  },
+  "Formule QUICKI": {
+    "unit": null,
+    "referenceRange": ">0.34 (optimal)",
+    "category": "Métabolisme Glucidique",
+    "history": [
+      { "date": "2023-05-10", "value": 0.34 },
+      { "date": "2024-02-14", "value": 0.335 },
+      { "date": "2025-02-11", "value": 0.318 }
+    ]
+  },
+  "ASAT (GOT)": {
+    "unit": "UI/L",
+    "referenceRange": "13-60",
+    "category": "Fonction Hépatique",
+    "history": [
+      { "date": "2021-10-31", "value": 34 },
+      { "date": "2023-05-10", "value": 22 },
+      { "date": "2024-02-14", "value": 33 }
+    ]
+  },
+  "ALAT (GPT)": {
+    "unit": "UI/L",
+    "referenceRange": "10-50",
+    "category": "Fonction Hépatique",
+    "history": [
+      { "date": "2021-10-31", "value": 26 },
+      { "date": "2023-05-10", "value": 24 },
+      { "date": "2024-02-14", "value": 45 }
+    ]
+  },
+  "Gamma GT": {
+    "unit": "UI/L",
+    "referenceRange": "<60",
+    "category": "Fonction Hépatique",
+    "history": [
+      { "date": "2021-10-31", "value": 20 },
+      { "date": "2023-05-10", "value": 17 },
+      { "date": "2024-02-14", "value": 19 }
+    ]
+  },
+  "Phosphatases alcalines (PAL)": {
+    "unit": "UI/L",
+    "referenceRange": "40-129",
+    "category": "Fonction Hépatique",
+    "history": [
+      { "date": "2021-10-31", "value": 22 },
+      { "date": "2024-02-14", "value": 79 }
+    ]
+  },
+  "Lipase sérique": {
+    "unit": "UI/L",
+    "referenceRange": "13-60",
+    "category": "Enzymes Pancréatiques",
+    "history": [
+      { "date": "2021-10-31", "value": 71 },
+      { "date": "2023-05-10", "value": 37 },
+      { "date": "2024-02-14", "value": 24 }
+    ]
+  },
+  "Bilirubine totale": {
+    "unit": "µmol/L",
+    "referenceRange": "<24.0",
+    "category": "Fonction Hépatique",
+    "history": [
+      { "date": "2021-10-31", "value": 5.0 },
+      { "date": "2023-05-10", "value": 5.90 },
+      { "date": "2024-02-14", "value": 9.5 }
+    ]
+  },
+  "Bilirubine conjuguée": {
+    "unit": "µmol/L",
+    "referenceRange": "<5.0",
+    "category": "Fonction Hépatique",
+    "history": [
+      { "date": "2021-10-31", "value": "<1.5" },
+      { "date": "2023-05-10", "value": 3.00 },
+      { "date": "2024-02-14", "value": 3.3 }
+    ]
+  },
+  "Bilirubine libre": {
+    "unit": "µmol/L",
+    "referenceRange": "<17.5",
+    "category": "Fonction Hépatique",
+    "history": [
+      { "date": "2023-05-10", "value": 2.90 },
+      { "date": "2024-02-14", "value": 6.2 }
+    ]
+  },
+  "Protéine C-Réactive (PCR)": {
+    "unit": "mg/L",
+    "referenceRange": "<5.0",
+    "category": "Inflammation et Immunologie",
+    "history": [
+      { "date": "2021-10-31", "value": "<0.6" },
+      { "date": "2021-11-02", "value": "<0.6" },
+      { "date": "2023-05-10", "value": "<0.5" },
+      { "date": "2024-02-14", "value": "<0.4" },
+      { "date": "2024-05-31", "value": "<1" },
+      { "date": "2025-02-11", "value": "<1" }
+    ]
+  },
+  "Calcémie": {
+    "unit": "mmol/L",
+    "referenceRange": "2.15-2.50",
+    "category": "Métabolisme Phospho-Calcique",
+    "history": [
+      { "date": "2021-10-31", "value": 2.54 },
+      { "date": "2024-02-14", "value": 2.48 },
+      { "date": "2025-02-11", "value": 2.47 }
+    ]
+  },
+  "Calcium corrigé": {
+    "unit": "mmol/L",
+    "referenceRange": "2.10-2.55",
+    "category": "Métabolisme Phospho-Calcique",
+    "history": [
+      { "date": "2025-02-11", "value": 2.27 }
+    ]
+  },
+  "Cortisolémie (matin)": {
+    "unit": "nmol/L",
+    "referenceRange": "166-507",
+    "category": "Hormones",
+    "history": [
+      { "date": "2021-11-02", "value": 414 },
+      { "date": "2023-05-10", "value": 452.00 },
+      { "date": "2024-02-14", "value": 334 }
+    ]
+  },
+  "Cortisolémie (soir)": {
+    "unit": "nmol/L",
+    "referenceRange": "74-241 (16H-20H)",
+    "category": "Hormones",
+    "history": [
+      { "date": "2021-10-31", "value": 102 }
+    ]
+  },
+  "Cortisolémie (T8H - Cycle ACTH)": {
+    "unit": "nmol/L",
+    "referenceRange": "166-507",
+    "category": "Hormones",
+    "history": [
+      { "date": "2021-11-02", "value": 417 }
+    ]
+  },
+  "Cortisolémie (T12H - Cycle ACTH)": {
+    "unit": "nmol/L",
+    "referenceRange": null,
+    "category": "Hormones",
+    "history": [
+      { "date": "2021-11-02", "value": 208 }
+    ]
+  },
+  "Cortisolémie (T18H - Cycle ACTH)": {
+    "unit": "nmol/L",
+    "referenceRange": "74-291",
+    "category": "Hormones",
+    "history": [
+      { "date": "2021-11-02", "value": 398 }
+    ]
+  },
+  "Cortisolémie (T24H - Cycle ACTH)": {
+    "unit": "nmol/L",
+    "referenceRange": null,
+    "category": "Hormones",
+    "history": [
+      { "date": "2021-11-02", "value": 92 }
+    ]
+  },
+  "TSH ultra sensible": {
+    "unit": "µUI/mL",
+    "referenceRange": "0.27-4.2",
+    "category": "Hormones Thyroïdiennes",
+    "history": [
+      { "date": "2021-10-31", "value": 0.67 },
+      { "date": "2021-11-02", "value": 0.58 },
+      { "date": "2023-05-10", "value": 2.58 },
+      { "date": "2024-02-14", "value": 0.81 }
+    ]
+  },
+  "Insulinémie": {
+    "unit": "µUI/mL",
+    "referenceRange": "2.6-24.9",
+    "category": "Métabolisme Glucidique",
+    "history": [
+      { "date": "2021-11-01", "value": 7.0 },
+      { "date": "2021-11-02", "value": 5.5 },
+      { "date": "2023-05-10", "value": 10.10 },
+      { "date": "2024-02-14", "value": 10.1 },
+      { "date": "2025-02-11", "value": 14.3 }
+    ]
+  },
+  "C-Peptide": {
+    "unit": "ng/mL",
+    "referenceRange": "1.10-4.40",
+    "category": "Métabolisme Glucidique",
+    "history": [
+      { "date": "2021-11-02", "value": 1.37 }
+    ]
+  },
+  "FSH": {
+    "unit": "UI/L",
+    "referenceRange": "1.5-12.4",
+    "category": "Hormones Sexuelles",
+    "history": [
+      { "date": "2021-11-02", "value": 1.49 }
+    ]
+  },
+  "LH": {
+    "unit": "UI/L",
+    "referenceRange": "1.7-8.6",
+    "category": "Hormones Sexuelles",
+    "history": [
+      { "date": "2021-11-02", "value": 4.8 }
+    ]
+  },
+  "Prolactine (mass unit)": {
+    "unit": "µg/L",
+    "referenceRange": "4.04-15.2 (ng/mL equivalent)",
+    "category": "Hormones",
+    "history": [
+      { "date": "2021-11-02", "value": 20.3 },
+      { "date": "2021-11-04", "value": 16.5 },
+      { "date": "2023-05-10", "value": 35.09 },
+      { "date": "2024-02-14", "value": 16.4 },
+      { "date": "2024-05-31", "value": 14 },
+      { "date": "2025-02-11", "value": 10.5 }
+    ]
+  },
+  "Prolactine (activity unit)": {
+    "unit": "mUI/L",
+    "referenceRange": "86-324 (approx for men)",
+    "category": "Hormones",
+    "history": [
+        { "date": "2023-05-10", "value": 744.00 },
+        { "date": "2024-02-14", "value": 345 },
+        { "date": "2024-05-31", "value": 293 },
+        { "date": "2025-02-11", "value": 220 }
+    ]
+  },
+  "ACTH (Corticotropine)": {
+    "unit": "pg/mL",
+    "referenceRange": "7.2-63.3",
+    "category": "Hormones",
+    "history": [
+      { "date": "2021-11-02", "value": 33.5 }
+    ]
+  },
+  "ACTH (T8H - Cycle ACTH)": {
+    "unit": "pg/mL",
+    "referenceRange": "7.2-63.3",
+    "category": "Hormones",
+    "history": [
+        { "date": "2021-11-02", "value": 29.2 }
+    ]
+  },
+  "ACTH (T12H - Cycle ACTH)": {
+    "unit": "pg/mL",
+    "referenceRange": null,
+    "category": "Hormones",
+    "history": [
+        { "date": "2021-11-02", "value": 17.2 }
+    ]
+  },
+  "ACTH (T18H - Cycle ACTH)": {
+    "unit": "pg/mL",
+    "referenceRange": null,
+    "category": "Hormones",
+    "history": [
+        { "date": "2021-11-02", "value": 21.4 }
+    ]
+  },
+  "ACTH (T24H - Cycle ACTH)": {
+    "unit": "pg/mL",
+    "referenceRange": null,
+    "category": "Hormones",
+    "history": [
+        { "date": "2021-11-02", "value": 15.3 }
+    ]
+  },
+  "Hormone de croissance": {
+    "unit": "mUI/L",
+    "referenceRange": null,
+    "category": "Hormones",
+    "history": [
+      { "date": "2021-11-02", "value": 0.300 }
+    ]
+  },
+  "T3 Libre": {
+    "unit": "pmol/L",
+    "referenceRange": "3.1-6.8",
+    "category": "Hormones Thyroïdiennes",
+    "history": [
+        { "date": "2023-05-10", "value": 5.03 }
+    ]
+  },
+  "T4 Libre": {
+    "unit": "pmol/L",
+    "referenceRange": "12-22",
+    "category": "Hormones Thyroïdiennes",
+    "history": [
+      { "date": "2021-11-04", "value": 16.3 },
+      { "date": "2023-05-10", "value": 16.00 }
+    ]
+  },
+  "Calcitonine": {
+    "unit": "ng/L",
+    "referenceRange": "N < 10",
+    "category": "Marqueurs Tumoraux",
+    "history": [
+      { "date": "2021-11-03", "value": "<3" }
+    ]
+  },
+  "Sulfate de Dehydroepiandrosterone (S.D.H.A.)": {
+    "unit": "µmol/L",
+    "referenceRange": "5.7-13.0 (H 25-34a)",
+    "category": "Hormones",
+    "history": [
+      { "date": "2021-11-02", "value": 11.2 },
+      { "date": "2023-05-10", "value": 16.0 },
+      { "date": "2023-05-23", "value": 16.5 },
+      { "date": "2024-02-14", "value": 15.2 },
+      { "date": "2025-02-11", "value": 15.6 }
+    ]
+  },
+  "Testostérone": {
+    "unit": "nmol/L",
+    "referenceRange": "8.6-29.0",
+    "category": "Hormones Sexuelles",
+    "history": [
+      { "date": "2021-11-02", "value": 16.3 },
+      { "date": "2023-05-23", "value": 13.3 },
+      { "date": "2024-02-14", "value": 10.25 },
+      { "date": "2024-05-31", "value": 10.11 },
+      { "date": "2025-02-11", "value": 14.90 }
+    ]
+  },
+  "Testostérone Libre (RIA)": {
+    "unit": "pmol/L",
+    "referenceRange": "30.0-87.0",
+    "category": "Hormones Sexuelles",
+    "history": [
+        { "date": "2023-05-23", "value": 55.6 },
+        { "date": "2024-05-31", "value": 38.4 }
+    ]
+  },
+  "Testostérone Libre (Calculée/Chimie)": {
+    "unit": "pg/mL",
+    "referenceRange": "12.3-46.6",
+    "category": "Hormones Sexuelles",
+    "history": [
+        { "date": "2024-02-14", "value": 22.50 }
+    ]
+  },
+  "Testostérone Biodisponible": {
+    "unit": "nmol/L",
+    "referenceRange": "2.7-12.0",
+    "category": "Hormones Sexuelles",
+    "history": [
+        { "date": "2024-05-31", "value": 3.6 }
+    ]
+  },
+  "Testostérone Biodisponible (pg/mL)": {
+    "unit": "pg/mL",
+    "referenceRange": "288-1092",
+    "category": "Hormones Sexuelles",
+    "history": [
+        { "date": "2025-02-11", "value": 778 }
+    ]
+  },
+  "Chromogranine A": {
+    "unit": "ng/mL",
+    "referenceRange": "< 102",
+    "category": "Marqueurs Tumoraux",
+    "history": [
+      { "date": "2021-11-02", "value": 70 }
+    ]
+  },
+  "Gastrine": {
+    "unit": "pmol/L",
+    "referenceRange": "N < 60",
+    "category": "Hormones Digestives",
+    "history": [
+      { "date": "2021-11-02", "value": 25 }
+    ]
+  },
+  "Homocysteine": {
+    "unit": "µmol/L",
+    "referenceRange": "5-15",
+    "category": "Biochimie Sanguine",
+    "history": [
+      { "date": "2023-05-10", "value": 13.9 },
+      { "date": "2024-02-14", "value": 13.8 }
+    ]
+  },
+  "Hémoglobine Glyquée (HbA1c)": {
+    "unit": "%",
+    "referenceRange": "<6.0",
+    "category": "Métabolisme Glucidique",
+    "history": [
+      { "date": "2023-05-10", "value": 5.0 },
+      { "date": "2024-02-14", "value": 5.00 },
+      { "date": "2025-02-11", "value": 5.10 }
+    ]
+  },
+  "HDL-Cholestérol": {
+    "unit": "mmol/L",
+    "referenceRange": ">1.45",
+    "category": "Métabolisme Lipidique",
+    "history": [
+      { "date": "2023-05-10", "value": 1.05 },
+      { "date": "2024-02-14", "value": 1.20 },
+      { "date": "2025-02-11", "value": 1.20 }
+    ]
+  },
+  "LDL-Cholestérol (calculé)": {
+    "unit": "mmol/L",
+    "referenceRange": null,
+    "category": "Métabolisme Lipidique",
+    "history": [
+      { "date": "2023-05-10", "value": 2.59 },
+      { "date": "2024-02-14", "value": 2.85 },
+      { "date": "2025-02-11", "value": 3.51 }
+    ]
+  },
+  "Triglycérides": {
+    "unit": "mmol/L",
+    "referenceRange": "<1.70",
+    "category": "Métabolisme Lipidique",
+    "history": [
+      { "date": "2023-05-10", "value": 1.37 },
+      { "date": "2024-02-14", "value": 0.86 },
+      { "date": "2025-02-11", "value": 1.31 }
+    ]
+  },
+  "Cholestérol Total": {
+    "unit": "mmol/L",
+    "referenceRange": "<5.16",
+    "category": "Métabolisme Lipidique",
+    "history": [
+      { "date": "2023-05-10", "value": 4.26 },
+      { "date": "2024-02-14", "value": 4.44 },
+      { "date": "2025-02-11", "value": 5.31 }
+    ]
+  },
+  "Magnésium": {
+    "unit": "mmol/L",
+    "referenceRange": "0.65-1.05",
+    "category": "Ionogramme",
+    "history": [
+      { "date": "2023-05-10", "value": 0.91 },
+      { "date": "2024-02-14", "value": 0.88 }
+    ]
+  },
+  "Fer sérique": {
+    "unit": "µmol/L",
+    "referenceRange": "5.83-34.5",
+    "category": "Métabolisme du Fer",
+    "history": [
+        { "date": "2023-05-10", "value": 14.89 },
+        { "date": "2024-02-14", "value": 25.1 }
+    ]
+  },
+  "Transferrine": {
+    "unit": "g/L",
+    "referenceRange": "2.00-3.60",
+    "category": "Métabolisme du Fer",
+    "history": [
+        { "date": "2023-05-10", "value": 2.70 },
+        { "date": "2024-02-14", "value": 2.82 }
+    ]
+  },
+  "Capacité Totale de Fixation du Fer": {
+    "unit": "µmol/L",
+    "referenceRange": "50-65",
+    "category": "Métabolisme du Fer",
+    "history": [
+        { "date": "2023-05-10", "value": 68 },
+        { "date": "2024-02-14", "value": 71 }
+    ]
+  },
+  "Coefficient de Saturation de la Transferrine": {
+    "unit": "%",
+    "referenceRange": "20-40",
+    "category": "Métabolisme du Fer",
+    "history": [
+        { "date": "2023-05-10", "value": 22 },
+        { "date": "2024-02-14", "value": 36 }
+    ]
+  },
+  "Ferritine": {
+    "unit": "µg/L",
+    "referenceRange": "30-400",
+    "category": "Métabolisme du Fer",
+    "history": [
+      { "date": "2023-05-10", "value": 160 },
+      { "date": "2024-02-14", "value": 67 },
+      { "date": "2025-02-11", "value": 68 }
+    ]
+  },
+  "Folates Sériques (Vitamine B9)": {
+    "unit": "nmol/L",
+    "referenceRange": "9.8-42.5",
+    "category": "Vitamines et Minéraux",
+    "history": [
+      { "date": "2023-05-10", "value": 7.1 },
+      { "date": "2024-02-14", "value": 12.6 },
+      { "date": "2025-02-11", "value": 11.0 }
+    ]
+  },
+  "Vitamine B12": {
+    "unit": "pmol/L",
+    "referenceRange": "145-569",
+    "category": "Vitamines et Minéraux",
+    "history": [
+      { "date": "2023-05-10", "value": 329 },
+      { "date": "2024-02-14", "value": 330 },
+      { "date": "2025-02-11", "value": 503 }
+    ]
+  },
+  "LDH": {
+    "unit": "U/L",
+    "referenceRange": "<250",
+    "category": "Enzymes",
+    "history": [
+      { "date": "2023-05-10", "value": 163 },
+      { "date": "2024-02-14", "value": 162 },
+      { "date": "2025-02-11", "value": 171 }
+    ]
+  },
+  "CPK Totales": {
+    "unit": "U/L",
+    "referenceRange": "30-300",
+    "category": "Enzymes Musculaires",
+    "history": [
+      { "date": "2023-05-10", "value": 66 },
+      { "date": "2024-02-14", "value": 101 }
+    ]
+  },
+  "NT-proBNP": {
+    "unit": "ng/L",
+    "referenceRange": "<125 (Exclusion IC)",
+    "category": "Marqueurs Cardiaques",
+    "history": [
+      { "date": "2023-05-10", "value": 19 },
+      { "date": "2023-05-23", "value": "<10" },
+      { "date": "2024-02-14", "value": "<10" }
+    ]
+  },
+  "Vitamine D (D2+D3)": {
+    "unit": "nmol/L",
+    "referenceRange": "75-250 (Suffisance)",
+    "category": "Vitamines et Minéraux",
+    "history": [
+      { "date": "2023-05-10", "value": 67.0 },
+      { "date": "2024-02-14", "value": 45 },
+      { "date": "2025-02-11", "value": 45 }
+    ]
+  },
+  "Facteur Rhumatoïde Latex": {
+    "unit": "UI/mL",
+    "referenceRange": "<14",
+    "category": "Immunologie",
+    "history": [
+      { "date": "2023-05-10", "value": "<10" }
+    ]
+  },
+  "Anticorps anti-CCP 2": {
+    "unit": "U/mL",
+    "referenceRange": "<17",
+    "category": "Immunologie",
+    "history": [
+      { "date": "2023-05-10", "value": "<8.0" }
+    ]
+  },
+  "Ac anti-Thyroperoxydase": {
+    "unit": "UI/mL",
+    "referenceRange": "<34",
+    "category": "Hormones Thyroïdiennes",
+    "history": [
+      { "date": "2023-05-10", "value": "<9" },
+      { "date": "2023-05-23", "value": 9 },
+      { "date": "2024-02-14", "value": "<3" }
+    ]
+  },
+  "Ac anti-Thyroglobuline": {
+    "unit": "UI/mL",
+    "referenceRange": "<115",
+    "category": "Hormones Thyroïdiennes",
+    "history": [
+        { "date": "2023-05-23", "value": 13 },
+        { "date": "2024-02-14", "value": "<3" }
+    ]
+  },
+  "Thyroglobuline": {
+    "unit": "µg/L",
+    "referenceRange": "3.5-77",
+    "category": "Hormones Thyroïdiennes",
+    "history": [
+      { "date": "2023-05-10", "value": 29.60 }
+    ]
+  },
+  "PTH - Parathormone intacte": {
+    "unit": "pg/mL",
+    "referenceRange": "15-65 (pmol/L: 1.6-6.9)",
+    "category": "Métabolisme Phospho-Calcique",
+    "history": [
+      { "date": "2023-05-10", "value": 20.7 },
+      { "date": "2025-02-11", "value": 46.4 }
+    ]
+  },
+  "Albumine": {
+    "unit": "g/L",
+    "referenceRange": "35-52",
+    "category": "Protéines Sériques",
+    "history": [
+      { "date": "2023-05-10", "value": 49.7 },
+      { "date": "2024-02-14", "value": 47.9 },
+      { "date": "2025-02-11", "value": 48.0 }
+    ]
+  },
+  "Protéine C": {
+    "unit": "%",
+    "referenceRange": "90-128",
+    "category": "Coagulation",
+    "history": [
+      { "date": "2023-06-15", "value": 107 }
+    ]
+  },
+  "Protéine S": {
+    "unit": "%",
+    "referenceRange": "89-128",
+    "category": "Coagulation",
+    "history": [
+      { "date": "2023-06-15", "value": 98 }
+    ]
+  },
+  "Antithrombine": {
+    "unit": "%",
+    "referenceRange": "80-120",
+    "category": "Coagulation",
+    "history": [
+      { "date": "2023-06-15", "value": 114 }
+    ]
+  },
+  "Lipoprotéine (a)": {
+    "unit": "nmol/l",
+    "referenceRange": "N: < 75,0",
+    "category": "Bilan Lipidique",
+    "history": [
+      { "date": "2023-06-15", "value": "<20,0" }
+    ]
+  },
+  "Facteur II": {
+    "unit": "%",
+    "referenceRange": ">70",
+    "category": "Coagulation",
+    "history": [
+      { "date": "2023-06-15", "value": 111 }
+    ]
+  },
+  "Phosphore": {
+    "unit": "mmol/L",
+    "referenceRange": "0.81-1.45",
+    "category": "Métabolisme Phospho-Calcique",
+    "history": [
+      { "date": "2024-02-14", "value": 0.85 },
+      { "date": "2025-02-11", "value": 0.90 }
+    ]
+  },
+  "Immunoglobuline A (IgA)": {
+    "unit": "g/L",
+    "referenceRange": "0.40-3.50",
+    "category": "Immunologie",
+    "history": [
+      { "date": "2023-05-23", "value": 1.46 },
+      { "date": "2024-02-14", "value": 1.53 }
+    ]
+  },
+  "Immunoglobuline G (IgG)": {
+    "unit": "g/L",
+    "referenceRange": "5.40-18.22",
+    "category": "Immunologie",
+    "history": [
+      { "date": "2024-02-14", "value": 10.83 }
+    ]
+  },
+  "Immunoglobuline M (IgM)": {
+    "unit": "g/L",
+    "referenceRange": "0.22-2.40",
+    "category": "Immunologie",
+    "history": [
+      { "date": "2024-02-14", "value": 0.92 }
+    ]
+  },
+  "Vitamine A": {
+    "unit": "mg/L",
+    "referenceRange": "0.303-0.931",
+    "category": "Vitamines et Minéraux",
+    "history": [
+      { "date": "2023-05-23", "value": 0.604 },
+      { "date": "2024-02-14", "value": 0.560 }
+    ]
+  },
+  "Vitamine E": {
+    "unit": "mg/L",
+    "referenceRange": "8.00-15.00",
+    "category": "Vitamines et Minéraux",
+    "history": [
+      { "date": "2024-02-14", "value": 13.62 }
+    ]
+  },
+  "Vitamine B6": {
+    "unit": "µg/L",
+    "referenceRange": "8.7-27.2",
+    "category": "Vitamines et Minéraux",
+    "history": [
+      { "date": "2023-05-10", "value": 18.8 },
+      { "date": "2024-02-14", "value": 21.7 }
+    ]
+  },
+  "Zinc (sérique)": {
+    "unit": "µg/L",
+    "referenceRange": "628-1217",
+    "category": "Oligoéléments",
+    "history": [
+      { "date": "2023-05-23", "value": 1410 },
+      { "date": "2024-02-14", "value": 887 }
+    ]
+  },
+  "Cuivre (sérique)": {
+    "unit": "µg/L",
+    "referenceRange": "627-1659",
+    "category": "Oligoéléments",
+    "history": [
+      { "date": "2023-05-23", "value": 800 },
+      { "date": "2024-02-14", "value": 800 }
+    ]
+  },
+  "Sélénium plasmatique": {
+    "unit": "µmol/L",
+    "referenceRange": "1.14-1.85",
+    "category": "Oligoéléments",
+    "history": [
+      { "date": "2023-05-23", "value": 1.07 },
+      { "date": "2024-02-16", "value": 1.17 }
+    ]
+  },
+  "Coenzyme Q10": {
+    "unit": "µg/L",
+    "referenceRange": "600-1100",
+    "category": "Biologie Fonctionnelle",
+    "history": [
+      { "date": "2024-02-16", "value": 1034 }
+    ]
+  },
+  "Complément C3": {
+    "unit": "g/L",
+    "referenceRange": "0.90-1.80",
+    "category": "Immunologie",
+    "history": [
+      { "date": "2024-02-14", "value": 1.16 }
+    ]
+  },
+  "Complément C4": {
+    "unit": "g/L",
+    "referenceRange": "0.10-0.40",
+    "category": "Immunologie",
+    "history": [
+      { "date": "2024-02-14", "value": 0.20 }
+    ]
+  },
+  "β Cross-Laps plasmatique": {
+    "unit": "pg/mL",
+    "referenceRange": "158-442 (H 30-50a)",
+    "category": "Marqueurs Osseux",
+    "history": [
+      { "date": "2024-02-14", "value": 397 }
+    ]
+  },
+  "Sulfate de prégnénolone": {
+    "unit": "ng/mL",
+    "referenceRange": "40-120",
+    "category": "Hormones",
+    "history": [
+      { "date": "2025-02-11", "value": 20 }
+    ]
+  },
+  "IgE Dermatophagoïdes pteronyssinus": {
+    "unit": "kU/l",
+    "referenceRange": "<0.35 (Négatif)",
+    "category": "Allergologie",
+    "history": [
+      { "date": "2020-04-09", "value": 16.00 }
+    ]
+  },
+  "IgE Dermatophagoïdes farinae": {
+    "unit": "kU/l",
+    "referenceRange": "<0.35 (Négatif)",
+    "category": "Allergologie",
+    "history": [
+      { "date": "2020-04-09", "value": 23.30 }
+    ]
+  },
+  "IgE rDer p 23 (D. pteronyssinus)": {
+    "unit": "kU/l",
+    "referenceRange": "<0.10 (Négatif)",
+    "category": "Allergologie",
+    "history": [
+      { "date": "2020-04-09", "value": 1.52 }
+    ]
+  },
+  "IgE Phléole des prés": {
+    "unit": "kU/l",
+    "referenceRange": "<0.10 (Négatif)",
+    "category": "Allergologie",
+    "history": [
+      { "date": "2020-04-09", "value": "<0.10" }
+    ]
+  },
+  "COVID 19 PCR": {
+    "unit": null,
+    "referenceRange": "Négatif",
+    "category": "Microbiologie",
+    "history": [
+      { "date": "2021-10-31", "value": "Négatif" }
+    ]
+  },
+  "Taux de Prothrombine": {
+    "unit": "%",
+    "referenceRange": "84.3-128.7",
+    "category": "Hémostase",
+    "history": [
+      { "date": "2021-10-31", "value": 112.1 }
+    ]
+  },
+  "INR": {
+    "unit": null,
+    "referenceRange": "0.8-1.2",
+    "category": "Hémostase",
+    "history": [
+      { "date": "2021-10-31", "value": 0.96 }
+    ]
+  },
+  "Temps de Quick (Patient)": {
+    "unit": "s",
+    "referenceRange": null,
+    "category": "Hémostase",
+    "history": [
+      { "date": "2021-10-31", "value": 7.8 }
+    ]
+  },
+  "Temps de Céphalines Activées (Patient)": {
+    "unit": "s",
+    "referenceRange": null,
+    "category": "Hémostase",
+    "history": [
+      { "date": "2021-10-31", "value": 24.7 }
+    ]
+  },
+  "Fibrinogène": {
+    "unit": "g/L",
+    "referenceRange": "1.88-3.84",
+    "category": "Hémostase",
+    "history": [
+      { "date": "2021-10-31", "value": 2.25 },
+      { "date": "2023-05-10", "value": 2.9 }
+    ]
+  },
+  "Acide Urique": {
+    "unit": "µmol/L",
+    "referenceRange": "202-417",
+    "category": "Biochimie Sanguine",
+    "history": [
+      { "date": "2023-05-10", "value": 345 },
+      { "date": "2024-02-14", "value": 380 }
+    ]
+  },
+  "Aldostérone": {
+    "unit": "pmol/L",
+    "referenceRange": "55-422 (Position assise)",
+    "category": "Hormones",
+    "history": [
+      { "date": "2023-05-10", "value": 179.0 }
+    ]
+  },
+  "Iode Sérique Total": {
+    "unit": "µg/L",
+    "referenceRange": "40.0-100.0",
+    "category": "Oligoéléments",
+    "history": [
+      { "date": "2023-05-10", "value": 68.3 }
+    ]
+  },
+  "Facteurs Rhumatoïdes IgM (ELISA)": {
+    "unit": "U/ml",
+    "referenceRange": "<16",
+    "category": "Immunologie",
+    "history": [
+      { "date": "2023-05-10", "value": 8 }
+    ]
+  },
+  "Anticorps anti-DNA natif (FEIA)": {
+    "unit": "IU/ml",
+    "referenceRange": "<10 (Négatif)",
+    "category": "Auto-immunité",
+    "history": [
+      { "date": "2023-05-10", "value": "<10" }
+    ]
+  },
+  "Sérologie Lyme (IgG)": {
+    "unit": "UA/mL",
+    "referenceRange": "<10 (Négatif)",
+    "category": "Sérologie Infectieuse",
+    "history": [
+      { "date": "2023-05-10", "value": "<5.0" },
+      { "date": "2024-02-14", "value": "<5.0" }
+    ]
+  },
+  "Sérologie Lyme (IgM)": {
+    "unit": "UR/mL",
+    "referenceRange": "<18 (Négatif)",
+    "category": "Sérologie Infectieuse",
+    "history": [
+      { "date": "2023-05-10", "value": "2.0" },
+      { "date": "2024-02-14", "value": "<2.0" }
+    ]
+  },
+  "Coproculture Résultat": {
+    "unit": null,
+    "referenceRange": "Absence de bactéries entéropathogènes",
+    "category": "Sérologie Infectieuse",
+    "history": [
+      { "date": "2023-05-19", "value": "Absence de bactéries entéropathogènes" }
+    ]
+  },
+  "Examen Parasitologique des Selles Résultat": {
+    "unit": null,
+    "referenceRange": "Négatif",
+    "category": "Sérologie Infectieuse",
+    "history": [
+      { "date": "2023-05-19", "value": "Négatif" }
+    ]
+  },
+  "Cortisol Libre Urinaire (24H)": {
+    "unit": "nmol/24h",
+    "referenceRange": "16.5-171",
+    "category": "Hormones Urinaires",
+    "history": [
+      { "date": "2023-05-19", "value": 164 }
+    ]
+  },
+  "Iodures Urinaires (24H)": {
+    "unit": "µg/24h",
+    "referenceRange": "100-300 (WHO)",
+    "category": "Oligoéléments Urinaires",
+    "history": [
+      { "date": "2023-05-19", "value": 31 }
+    ]
+  },
+  "Créatinine Urinaire (24H)": {
+    "unit": "mmol/24h",
+    "referenceRange": "8.8-17.7 (Homme)",
+    "category": "Biochimie Urinaire",
+    "history": [
+      { "date": "2023-05-19", "value": 13.74 }
+    ]
+  },
+  "Créatine Kinase MB (CK-MB masse)": {
+    "unit": "µg/L",
+    "referenceRange": "<4.87",
+    "category": "Enzymes Cardiaques",
+    "history": [
+      { "date": "2023-05-23", "value": 1.3 }
+    ]
+  },
+  "Tryptase": {
+    "unit": "µg/L",
+    "referenceRange": "<11.0",
+    "category": "Allergologie/Immunologie",
+    "history": [
+      { "date": "2023-05-23", "value": 2.7 }
+    ]
+  },
+  "Vitamine B9 Erythrocytaire": {
+    "unit": "nmol/L",
+    "referenceRange": "1187-2854",
+    "category": "Vitamines et Minéraux",
+    "history": [
+      { "date": "2023-05-23", "value": 1652 }
+    ]
+  },
+  "Magnésium Erythrocytaire": {
+    "unit": "mmol/L",
+    "referenceRange": "1.65-2.50",
+    "category": "Oligoéléments",
+    "history": [
+      { "date": "2023-05-23", "value": 2.03 }
+    ]
+  },
+  "T3 Reverse (rT3)": {
+    "unit": "ng/mL",
+    "referenceRange": "0.17-0.44",
+    "category": "Bilan Thyroïdien",
+    "history": [
+      { "date": "2023-05-23", "value": 0.30 }
+    ]
+  },
+  "Résistance à la Protéine C Activée": {
+    "unit": "Secondes",
+    "referenceRange": ">120",
+    "category": "Coagulation",
+    "history": [
+      { "date": "2023-06-15", "value": 166 }
+    ]
+  },
+  "Monomères de Fibrine": {
+    "unit": "µg/mL",
+    "referenceRange": "<5.00",
+    "category": "Coagulation",
+    "history": [
+      { "date": "2023-06-15", "value": "<5.00" }
+    ]
+  },
+  "P-sélectine (CD62P) Basal": {
+    "unit": "UA",
+    "referenceRange": "<0.50",
+    "category": "Coagulation/Plaquettes",
+    "history": [
+      { "date": "2023-06-15", "value": 0.30 }
+    ]
+  },
+  "P-sélectine (CD62P) TRAP": {
+    "unit": "UA",
+    "referenceRange": ">1.00",
+    "category": "Coagulation/Plaquettes",
+    "history": [
+      { "date": "2023-06-15", "value": 3.47 }
+    ]
+  },
+  "P-sélectine (CD62P) ADP": {
+    "unit": "UA",
+    "referenceRange": ">1.00",
+    "category": "Coagulation/Plaquettes",
+    "history": [
+      { "date": "2023-06-15", "value": 1.30 }
+    ]
+  },
+  "D. Dimères": {
+    "unit": "ng/mL",
+    "referenceRange": "<500",
+    "category": "Hémostase",
+    "history": [
+      { "date": "2024-02-14", "value": "<215" }
+    ]
+  },
+  "P.S.A Total": {
+    "unit": "µg/L",
+    "referenceRange": "<4.00",
+    "category": "Marqueurs Tumoraux",
+    "history": [
+      { "date": "2024-02-14", "value": 1.27 }
+    ]
+  },
+  "P.S.A. Libre": {
+    "unit": "µg/L",
+    "referenceRange": null,
+    "category": "Marqueurs Tumoraux",
+    "history": [
+      { "date": "2024-02-14", "value": 0.46 }
+    ]
+  },
+  "ACE (Ag Carcino Embryonnaire)": {
+    "unit": "µg/L",
+    "referenceRange": "<5.00",
+    "category": "Marqueurs Tumoraux",
+    "history": [
+      { "date": "2024-02-14", "value": 2.20 }
+    ]
+  },
+  "AFP (Alpha-Foetoprotéine)": {
+    "unit": "µg/L",
+    "referenceRange": "<8.78",
+    "category": "Marqueurs Tumoraux",
+    "history": [
+      { "date": "2024-02-14", "value": "<2.00" }
+    ]
+  },
+  "Sérologie VIH (Index)": {
+    "unit": null,
+    "referenceRange": "Négatif (<0.86)",
+    "category": "Sérologie Infectieuse",
+    "history": [
+      { "date": "2024-02-14", "value": 0.06 }
+    ]
+  },
+  "Sérologie Hépatite A IgM (Index)": {
+    "unit": null,
+    "referenceRange": "Négatif (<0.80)",
+    "category": "Sérologie Infectieuse",
+    "history": [
+      { "date": "2024-02-14", "value": 0.12 }
+    ]
+  },
+  "Antigène HBs (Index)": {
+    "unit": null,
+    "referenceRange": "Négatif (<0.90)",
+    "category": "Sérologie Infectieuse",
+    "history": [
+      { "date": "2024-02-14", "value": 0.30 }
+    ]
+  },
+  "Anticorps anti-HBs (Titre)": {
+    "unit": "UI/L",
+    "referenceRange": ">10 (Immunisé)",
+    "category": "Sérologie Infectieuse",
+    "history": [
+      { "date": "2024-02-14", "value": "<2" }
+    ]
+  },
+  "Anticorps anti-HBc totaux (Index)": {
+    "unit": null,
+    "referenceRange": "Négatif (<0.90)",
+    "category": "Sérologie Infectieuse",
+    "history": [
+      { "date": "2024-02-14", "value": 0.03 }
+    ]
+  },
+  "Sérologie Hépatite C (Index)": {
+    "unit": null,
+    "referenceRange": "Négatif (<0.90)",
+    "category": "Sérologie Infectieuse",
+    "history": [
+      { "date": "2024-02-14", "value": 0.06 }
+    ]
+  },
+  "Sérologie EBV VCA IgM (Index)": {
+    "unit": null,
+    "referenceRange": "Négatif (<0.50)",
+    "category": "Sérologie Infectieuse",
+    "history": [
+      { "date": "2024-02-14", "value": 0.03 }
+    ]
+  },
+  "Sérologie EBV VCA IgG (Index)": {
+    "unit": null,
+    "referenceRange": "Positif (≥1.00)",
+    "category": "Sérologie Infectieuse",
+    "history": [
+      { "date": "2024-02-14", "value": 26.38 }
+    ]
+  },
+  "Sérologie EBV EBNA IgG (Index)": {
+    "unit": null,
+    "referenceRange": "Positif (≥1.00)",
+    "category": "Sérologie Infectieuse",
+    "history": [
+      { "date": "2024-02-14", "value": 7.23 }
+    ]
+  },
+  "Sérologie EBV EA IgG (CLIA)": {
+    "unit": "U/ml",
+    "referenceRange": "Seuil : 40",
+    "category": "Sérologie Infectieuse",
+    "history": [
+      { "date": "2024-02-14", "value": "<5.0" }
+    ]
+  },
+  "Sérologie CMV IgG (Taux)": {
+    "unit": "UA/mL",
+    "referenceRange": "Négatif (<5.4)",
+    "category": "Sérologie Infectieuse",
+    "history": [
+      { "date": "2024-02-14", "value": "<1.1" }
+    ]
+  },
+  "Sérologie CMV IgM (Index)": {
+    "unit": null,
+    "referenceRange": "Négatif (<0.85)",
+    "category": "Sérologie Infectieuse",
+    "history": [
+      { "date": "2024-02-14", "value": 0.07 }
+    ]
+  },
+  "Sérologie Toxoplasmose IgG (Taux)": {
+    "unit": "UI/mL",
+    "referenceRange": "Positif (≥3.00)",
+    "category": "Sérologie Infectieuse",
+    "history": [
+      { "date": "2024-02-14", "value": 21.00 }
+    ]
+  },
+  "Sérologie Toxoplasmose IgM (Index)": {
+    "unit": null,
+    "referenceRange": "Négatif (<0.50)",
+    "category": "Sérologie Infectieuse",
+    "history": [
+      { "date": "2024-02-14", "value": 0.12 }
+    ]
+  },
+  "Anticorps anti-nucléaires (Titre)": {
+    "unit": null,
+    "referenceRange": "<1/100 (Négatif)",
+    "category": "Auto-immunité",
+    "history": [
+      { "date": "2024-02-14", "value": "<1/100" }
+    ]
+  },
+  "Anticorps anti-ENA (Panel)": {
+    "unit": "IA",
+    "referenceRange": "<0.8 (Négatif)",
+    "category": "Auto-immunité",
+    "history": [
+      { "date": "2024-02-14", "value": "Tous <0.2" }
+    ]
+  },
+  "Anticorps anti-ANCA (Titre)": {
+    "unit": null,
+    "referenceRange": "<1/20 (Négatif)",
+    "category": "Auto-immunité",
+    "history": [
+      { "date": "2024-02-14", "value": "<1/20" }
+    ]
+  },
+  "Anticorps anti-transglutaminase IgA": {
+    "unit": "U/mL",
+    "referenceRange": "<13.5 (Négatif)",
+    "category": "Auto-immunité",
+    "history": [
+      { "date": "2024-02-14", "value": "<0.5" }
+    ]
+  },
+  "Albumine (électrophorèse)": {
+    "unit": "g/L",
+    "referenceRange": "39.0-46.3",
+    "category": "Electrophorèse",
+    "history": [
+      { "date": "2023-05-10", "value": 49.6 },
+      { "date": "2024-02-14", "value": 47.9 }
+    ]
+  },
+  "Alpha 1 globulines (électrophorèse)": {
+    "unit": "g/L",
+    "referenceRange": "2.1-3.4",
+    "category": "Electrophorèse",
+    "history": [
+      { "date": "2023-05-10", "value": 2.4 },
+      { "date": "2024-02-14", "value": 2.5 }
+    ]
+  },
+  "Alpha 2 globulines (électrophorèse)": {
+    "unit": "g/L",
+    "referenceRange": "5.0-8.3",
+    "category": "Electrophorèse",
+    "history": [
+      { "date": "2023-05-10", "value": 5.4 },
+      { "date": "2024-02-14", "value": 5.5 }
+    ]
+  },
+  "Béta1 globulines (électrophorèse)": {
+    "unit": "g/L",
+    "referenceRange": "3.3-5.0",
+    "category": "Electrophorèse",
+    "history": [
+      { "date": "2023-05-10", "value": 4.0 },
+      { "date": "2024-02-14", "value": 4.5 }
+    ]
+  },
+  "Béta2 globulines (électrophorèse)": {
+    "unit": "g/L",
+    "referenceRange": "2.2-4.5",
+    "category": "Electrophorèse",
+    "history": [
+      { "date": "2023-05-10", "value": 3.7 },
+      { "date": "2024-02-14", "value": 4.2 }
+    ]
+  },
+  "Gamma globulines (électrophorèse)": {
+    "unit": "g/L",
+    "referenceRange": "7.8-13.2",
+    "category": "Electrophorèse",
+    "history": [
+      { "date": "2023-05-10", "value": 9.0 },
+      { "date": "2024-02-14", "value": 9.4 }
+    ]
+  },
+  "Glycosurie": {
+    "unit": "mmol/L",
+    "referenceRange": "0.10-0.80",
+    "category": "Biochimie Urinaire",
+    "history": [
+      { "date": "2024-02-15", "value": 0.27 }
+    ]
+  },
+  "pH urinaire": {
+    "unit": null,
+    "referenceRange": "5.0-7.2",
+    "category": "Biochimie Urinaire",
+    "history": [
+      { "date": "2024-02-15", "value": 6.0 }
+    ]
+  },
+  "Microalbuminurie": {
+    "unit": "mg/L",
+    "referenceRange": "<30",
+    "category": "Biochimie Urinaire",
+    "history": [
+      { "date": "2024-02-15", "value": 7 }
+    ]
+  },
+  "Leucocytes urinaires (ECBU)": {
+    "unit": "/mL",
+    "referenceRange": "<10000",
+    "category": "Microbiologie Urinaire",
+    "history": [
+      { "date": "2024-02-15", "value": 2000 }
+    ]
+  },
+  "Hématies urinaires (ECBU)": {
+    "unit": "/mL",
+    "referenceRange": "<10000",
+    "category": "Microbiologie Urinaire",
+    "history": [
+      { "date": "2024-02-15", "value": 2000 }
+    ]
+  },
+  "Culture urinaire (ECBU)": {
+    "unit": null,
+    "referenceRange": "Absence de culture significative",
+    "category": "Microbiologie Urinaire",
+    "history": [
+      { "date": "2024-02-15", "value": "Absence de culture <1000 UFC/mL" }
+    ]
+  },
+  "Test Respiratoire Helicobacter Pylori Résultat": {
+    "unit": null,
+    "referenceRange": "Négatif",
+    "category": "Tests Fonctionnels Digestifs",
+    "history": [
+      { "date": "2024-02-14", "value": "Négatif (0.10 d0/00)" }
+    ]
+  },
+  "Immunophénotypage Lymphocytaire (Population T CD3+)": {
+    "unit": "G/L",
+    "referenceRange": null,
+    "category": "Immunophénotypage",
+    "history": [
+      { "date": "2024-02-16", "value": 0.90 }
+    ]
+  },
+  "Immunophénotypage Lymphocytaire (Population B CD19+)": {
+    "unit": "G/L",
+    "referenceRange": null,
+    "category": "Immunophénotypage",
+    "history": [
+      { "date": "2024-02-16", "value": 0.11 }
+    ]
+  },
+  "Immunophénotypage Lymphocytaire (Population NK CD3-/CD56+)": {
+    "unit": "G/L",
+    "referenceRange": null,
+    "category": "Immunophénotypage",
+    "history": [
+      { "date": "2024-02-16", "value": 0.13 }
+    ]
+  },
+  "Sérologie Helicobacter Pylori IgG (Index)": {
+    "unit": null,
+    "referenceRange": "Négatif (<0.80)",
+    "category": "Sérologie Infectieuse",
+    "history": [
+      { "date": "2024-02-16", "value": 0.16 }
+    ]
+  },
+  "Sérologie Chlamydia trachomatis IgG (Index)": {
+    "unit": "UA/mL",
+    "referenceRange": "Négatif (<9.0)",
+    "category": "Sérologie Infectieuse",
+    "history": [
+      { "date": "2024-02-16", "value": "<5.0" }
+    ]
+  },
+  "Sérologie Parvovirus B19 IgG": {
+    "unit": "UI/mL",
+    "referenceRange": "Positif (>2.49)",
+    "category": "Sérologie Infectieuse",
+    "history": [
+      { "date": "2024-02-16", "value": 24.60 }
+    ]
+  },
+  "Sérologie Parvovirus B19 IgM": {
+    "unit": null,
+    "referenceRange": "Négatif (<0.90)",
+    "category": "Sérologie Infectieuse",
+    "history": [
+      { "date": "2024-02-16", "value": "<0.100" }
+    ]
+  },
+  "PCR Chlamydia/Gonorrhée/Trichomonas (urinaire)": {
+    "unit": null,
+    "referenceRange": "Négatif",
+    "category": "Biologie Moléculaire Infectieuse",
+    "history": [
+      { "date": "2024-02-16", "value": "Négatif pour les 3" }
+    ]
+  },
+  "Sérologie Mycoplasma pneumoniae IgM (Index)": {
+    "unit": "index",
+    "referenceRange": "Négatif (<10.0)",
+    "category": "Sérologie Infectieuse",
+    "history": [
+      { "date": "2024-02-14", "value": 2.6 }
+    ]
+  },
+  "Sérologie Mycoplasma pneumoniae IgG (Index)": {
+    "unit": "UA/mL",
+    "referenceRange": "Négatif (<10.0)",
+    "category": "Sérologie Infectieuse",
+    "history": [
+      { "date": "2024-02-14", "value": "<0.100" }
+    ]
+  },
+  "Sérologie Hépatite E IgM (Index)": {
+    "unit": null,
+    "referenceRange": "Absence (<1.00)",
+    "category": "Sérologie Infectieuse",
+    "history": [
+      { "date": "2024-02-14", "value": 0.34 }
+    ]
+  },
+  "HLA Classe I (A, B)": {
+    "unit": null,
+    "referenceRange": null,
+    "category": "Génétique",
+    "history": [
+      { "date": "2024-02-14", "value": "A*02, A*26 ; B*08, B*35" }
+    ]
+  },
+  "HLA Classe II (DQB1, DRB1)": {
+    "unit": null,
+    "referenceRange": null,
+    "category": "Génétique",
+    "history": [
+      { "date": "2024-02-14", "value": "DQB1*03:03, *05:01 ; DRB1*01, *01" }
+    ]
+  },
+  "Immunofixation des Protéines Sériques": {
+    "unit": null,
+    "referenceRange": "Absence d'anomalie",
+    "category": "Immunologie",
+    "history": [
+        { "date": "2023-05-10", "value": "Absence d'anomalie qualitative décelable par immunotypage" }
+    ]
+  },
+  "IgE Panel Mixte (Pneumallergènes)": {
+    "unit": "Classe EAST (0-6)",
+    "referenceRange": "Classe 0 (Absence)",
+    "category": "Allergologie",
+    "history": [
+      { "date": "2024-02-14", "value": "Dermatophagoides pteronyssimus (d1): 4, Dermatophagoides farinae (d2): 5, Autres: 0" }
+    ]
+  },
+  "Sérologie Rickettsia conorii IgG (IFI)": {
+    "unit": null,
+    "referenceRange": "Négatif",
+    "category": "Sérologie Infectieuse",
+    "history": [
+      { "date": "2024-02-16", "value": "Négatif" }
+    ]
+  },
+  "Sérologie Rickettsia typhi IgG (IFI)": {
+    "unit": null,
+    "referenceRange": "Négatif",
+    "category": "Sérologie Infectieuse",
+    "history": [
+      { "date": "2024-02-16", "value": "Négatif" }
+    ]
+  },
+  "Sérologie Rickettsia typhi IgM (IFI)": {
+    "unit": null,
+    "referenceRange": "Négatif",
+    "category": "Sérologie Infectieuse",
+    "history": [
+      { "date": "2024-02-16", "value": "Négatif" }
+    ]
+  },
+  "Sérologie Bartonella henselae IgG (IFI)": {
+    "unit": "Titre",
+    "referenceRange": "<320",
+    "category": "Sérologie Infectieuse",
+    "history": [
+      { "date": "2024-02-16", "value": "<320" }
+    ]
+  },
+  "Sérologie Bartonella quintana IgG (IFI)": {
+    "unit": "Titre",
+    "referenceRange": "<320",
+    "category": "Sérologie Infectieuse",
+    "history": [
+      { "date": "2024-02-16", "value": "<320" }
+    ]
+  },
+  "Sérologie Candida albicans (Hémagglutination Ig Totales)": {
+    "unit": "Titre",
+    "referenceRange": "<160 (Négatif)",
+    "category": "Sérologie Infectieuse",
+    "history": [
+      { "date": "2024-02-16", "value": 160 }
+    ]
+  },
+  "Sérologie Candida albicans IgG (ELISA)": {
+    "unit": "NTU",
+    "referenceRange": "<25 (Négatif)",
+    "category": "Sérologie Infectieuse",
+    "history": [
+      { "date": "2024-02-16", "value": 36 }
+    ]
+  },
+  "Sérologie Chlamydophila pneumoniae IgG (EIA)": {
+    "unit": "NTU",
+    "referenceRange": "<9 (Négatif)",
+    "category": "Sérologie Infectieuse",
+    "history": [
+      { "date": "2024-02-16", "value": "<9" }
+    ]
+  },
+  "Sérologie Chlamydophila pneumoniae IgM (EIA)": {
+    "unit": "NTU",
+    "referenceRange": "<9 (Négatif)",
+    "category": "Sérologie Infectieuse",
+    "history": [
+      { "date": "2024-02-16", "value": "<9" }
+    ]
+  },
+  "Sérologie Herpès Virus Type 6 (HHV6) IgG (IFA)": {
+    "unit": "Titre",
+    "referenceRange": "Seuil: 20",
+    "category": "Sérologie Infectieuse",
+    "history": [
+      { "date": "2024-02-16", "value": 20 }
+    ]
+  },
+  "IgG Sous-Classe 1": {
+    "unit": "g/L",
+    "referenceRange": "2.780-8.220",
+    "category": "Immunoglobulines",
+    "history": [
+      { "date": "2024-02-16", "value": 4.405 }
+    ]
+  },
+  "IgG Sous-Classe 2": {
+    "unit": "g/L",
+    "referenceRange": "1.470-6.290",
+    "category": "Immunoglobulines",
+    "history": [
+      { "date": "2024-02-16", "value": 2.961 }
+    ]
+  },
+  "IgG Sous-Classe 3": {
+    "unit": "g/L",
+    "referenceRange": "0.150-1.300",
+    "category": "Immunoglobulines",
+    "history": [
+      { "date": "2024-02-16", "value": 0.331 }
+    ]
+  },
+  "IgG Sous-Classe 4": {
+    "unit": "g/L",
+    "referenceRange": "0.032-1.315",
+    "category": "Immunoglobulines",
+    "history": [
+      { "date": "2024-02-16", "value": 1.398 }
+    ]
+  },
+  "CH50 - Complément Hémolytique Total": {
+    "unit": "U/mL",
+    "referenceRange": ">32",
+    "category": "Immunologie",
+    "history": [
+      { "date": "2024-02-16", "value": 57 }
+    ]
+  },
+  "ECA - Enzyme de Conversion de l'Angiotensine": {
+    "unit": "UECA",
+    "referenceRange": "20-70 (Adulte)",
+    "category": "Enzymologie",
+    "history": [
+      { "date": "2024-02-16", "value": 57 }
+    ]
+  },
+  "Sérologie Leishmaniose IgG (IF)": {
+    "unit": "Titre",
+    "referenceRange": "<40",
+    "category": "Sérologie Infectieuse",
+    "history": [
+      { "date": "2024-02-16", "value": "<40" }
+    ]
+  },
+  "Herpès Simplex Virus PCR (Sérum)": {
+    "unit": null,
+    "referenceRange": "Négatif",
+    "category": "Biologie Moléculaire Infectieuse",
+    "history": [
+      { "date": "2024-02-16", "value": "Négatif (Type I et II)" }
+    ]
+  },
+  "Sérologie Babésiose IgG (IFI)": {
+    "unit": null,
+    "referenceRange": "Négatif",
+    "category": "Sérologie Infectieuse",
+    "history": [
+      { "date": "2024-02-16", "value": "Négatif" }
+    ]
+  },
+  "Acide cholique": {
+    "unit": "µmol/L",
+    "referenceRange": "0.01-0.4",
+    "category": "Acides Biliaires",
+    "history": [
+      { "date": "2023-05-12", "value": 2.496 }
+    ]
+  },
+  "Acide chénodésoxycholique": {
+    "unit": "µmol/L",
+    "referenceRange": "0.017-0.45",
+    "category": "Acides Biliaires",
+    "history": [
+      { "date": "2023-05-12", "value": 1.027 }
+    ]
+  },
+  "Acide désoxycholique": {
+    "unit": "µmol/L",
+    "referenceRange": "0.06-0.45",
+    "category": "Acides Biliaires",
+    "history": [
+      { "date": "2023-05-12", "value": 0.877 }
+    ]
+  },
+  "Acide lithocholique": {
+    "unit": "µmol/L",
+    "referenceRange": "0.002-0.022",
+    "category": "Acides Biliaires",
+    "history": [
+      { "date": "2023-05-12", "value": 0.030 }
+    ]
+  },
+  "Acide glycholique": {
+    "unit": "µmol/L",
+    "referenceRange": "0.02-0.25",
+    "category": "Acides Biliaires",
+    "history": [
+      { "date": "2023-05-12", "value": 0.519 }
+    ]
+  },
+  "Acide glycochénodésoxycholique": {
+    "unit": "µmol/L",
+    "referenceRange": "0.15-1.35",
+    "category": "Acides Biliaires",
+    "history": [
+      { "date": "2023-05-12", "value": 2.425 }
+    ]
+  },
+  "Acide taurocholique": {
+    "unit": "µmol/L",
+    "referenceRange": "0.03-0.775",
+    "category": "Acides Biliaires",
+    "history": [
+      { "date": "2023-05-12", "value": 0.431 }
+    ]
+  },
+  "Acide ursodésoxycholique": {
+    "unit": "µmol/L",
+    "referenceRange": "0.004-0.085",
+    "category": "Acides Biliaires",
+    "history": [
+      { "date": "2023-05-12", "value": 0.029 }
+    ]
+  },
+  "Acide tauroursodeoxycholique": {
+    "unit": "µmol/L",
+    "referenceRange": "0.0015-0.013",
+    "category": "Acides Biliaires",
+    "history": [
+      { "date": "2023-05-12", "value": 0.003 }
+    ]
+  },
+  "Molybdène": {
+    "unit": "µg/L",
+    "referenceRange": "<0.8",
+    "category": "Métaux",
+    "history": [
+      { "date": "2023-05-12", "value": 0.522 }
+    ]
+  }
+}

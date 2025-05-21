@@ -1,0 +1,394 @@
+[
+  {
+    "year": "12 ans",
+    "title": "Premier problème de santé",
+    "description": "Apparition d'un urticaire cholinergique (forte réaction à la chaleur et à la transpiration – plaque sur tout le corps – démangeaisons fortes)."
+  },
+  {
+    "year": "15 ans",
+    "title": "Déclenchement des troubles principaux",
+    "description": "Première consommation de cannabis avec mauvaise réaction (bas trip).",
+    "details": [
+      "Développement consécutif d'un trouble panique sévère (jusqu'à 15-20 crises d'angoisse par jour très forte (tachycardie forte jusqu’à 200, tout les muscles tendus, angoisse de mort)).",
+      "Apparition progressive et simultanée de : Fatigue, Troubles digestifs (sensation de \"pierre\" à l'estomac, digestion perturbée), Sommeil non récupérateur.",
+      "→ Point de départ d'une cascade de symptômes neurologiques et digestifs."
+    ],
+    "labSummary": "Les prises de sang montrent régulièrement des anomalies au niveau des globules blanc (particulièrement neutropénie) mais rien d’autre."
+  },
+  {
+    "year": "17 ans",
+    "title": "Prise de IPP et conséquences",
+    "description": "Prise de IPP + anti-inflammatoire pour maux de tête et tensions au cou (qui était lié au stress chronique des crises d’angoisses).",
+    "details": [
+      "Déclenchement pour la première fois de ballonnements et crises de rots au niveau de l’estomac à cause du manque d’acidité causé par l’ipp (qui ne sont jamais partis jusqu’à maintenant en 2024 !!)"
+    ]
+  },
+  {
+    "year": "18 ans (début des études de FAC)",
+    "title": "Aggravation marquée multisystémique",
+    "description": "Symptômes digestifs : Douleurs gastriques et ballonnements importants, Indigestion constante, Diarrhées chroniques.",
+    "details": [
+      "Symptômes neurologiques/autonomiques : Tachycardie, Stress intense, Migraines.",
+      "Symptômes musculo-squelettiques : Raideur et inflammation de la nuque, Articulations rigides.",
+      "Troubles cognitifs et émotionnels sévères : Brouillard mental fort, Troubles importants de la concentration, Anhédonie, Troubles dissociatifs.",
+      "→ Apparition d'un tableau clinique complexe suggérant une atteinte multisystémique."
+    ]
+  },
+  {
+    "year": "18-19 ans",
+    "title": "Période d'investigations et traitements initiaux",
+    "description": "Examens initiaux :",
+    "details": [
+      "Bilans sanguins standard répétés : sans anomalie.",
+      "Tests négatifs pour : Helicobacter pylori, Diabète et hyperglycémie.",
+      "Sérologie Epstein-Barr : positive (infection ancienne potentiellement significative).",
+      "Gastroscopie (Medipath, 01/02/2019) : diagnostic de gastrite interstitielle chronique légère non active."
+    ],
+    "discoveries": [
+      {
+        "name": "Magnésium bisglycinate",
+        "description": "Amélioration spectaculaire des crises d'angoisses apparue lors de mes 15 ans (de 9,2/10 à 2/10 en quelques heures).",
+        "details": ["Suggère le rôle d’une carence en magnesium dans l’apparition de mes crises d’angoisses."]
+      },
+      {
+        "name": "Probiotique Alflorex (première comprimé)",
+        "description": "Réaction paradoxale sévère immédiate :",
+        "details": [
+          "Tachycardie à 180 bpm",
+          "Vomissements",
+          "Urination ultra-fréquente",
+          "Déshydratation",
+          "Malaise pré-syncopal"
+        ],
+        "outcome": "Hospitalisation avec bilan normal. Rémission de tout mes symptômes dès le lendemain (plus aucun symptômes à la suite d’une réaction de jarisch herxheimer très forte)."
+      }
+    ],
+    "labResults": [
+      {
+        "reportDate": "2019-02-01",
+        "reportName": "PRELEVEMENTS ENDOSCOPIQUES DIGESTIFS HAUTS",
+        "labName": "Medipath",
+        "doctor": "Dr ROLLAND VINCENS ANNE-LAU / Dr BUONO Jean Pascal (validator)",
+        "filePath": "ocr_doc_p12_p12.pdf",
+        "sections": [
+          {
+            "sectionName": "BIOPSIES DU DUODENUM (2 fragments)",
+            "tests": [],
+            "summary": "muqueuse normale. Absence d'atrophie villositaire, absence de parasite."
+          },
+          {
+            "sectionName": "BIOPSIES DE L'ESTOMAC (4 fragments)",
+            "tests": [],
+            "summary": "gastrite interstitielle chronique légère non active, sans atrophie, sans métaplasie intestinale selon le système de Sydney. Il n'a pas été vu de signes directs ou indirects pouvant évoquer une infection à Helicobacter pylori. Il n'a pas été observé de dysplasie ou de signe de malignité."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": "18-19 ans (Post-Alflorex et antibiothérapie)",
+    "title": "Évolution après Alflorex et nouveaux diagnostics",
+    "description": "Un mois plus tard (après la première prise d'Alflorex) : Sinusite nécessitant une antibiothérapie.",
+    "details": [
+      "Récidive brutale de tous les symptômes post-antibiotiques.",
+      "Seconde tentative d'Alflorex sans effet.",
+      "→ Suggère une perturbation profonde du microbiote intestinal.",
+      "Diagnostic établi d'intolérance au gluten et au lactose."
+    ]
+  },
+  {
+    "year": 2019,
+    "title": "Imagerie Cervicale",
+    "description": "Examens d'imagerie du rachis cervical.",
+    "imaging": [
+      {
+        "date": "2019-04-19",
+        "type": "Scanner du rachis cervical",
+        "location": "Rachis cervical",
+        "clinic": "Clinique Bouchard, Marseille",
+        "indication": "Exploration d'une névralgie cervicobrachiale gauche",
+        "results": [
+          "Fusion quasi-complète C3-C4 (corps vertébraux, articulaires postérieures et processus épineux)",
+          "Attitude scoliotique convexe gauche centrée sur le bloc C3-C4",
+          "Rétrécissement foraminal minime C3-C4 à droite",
+          "Pas d'autre rétrécissement foraminal ou extraforaminal visible",
+          "Pas de débord discal significatif",
+          "Pas d'étroitesse canalaire constitutionnelle"
+        ],
+        "conclusion": "Fusion quasi-complète C3-C4 isolée responsable d'une discrète attitude scoliotique."
+      },
+      {
+        "date": "2019-07-01",
+        "type": "IRM cervicale",
+        "location": "Rachis cervical",
+        "clinic": "GIE d'imagerie médicale du Haut Bugey",
+        "indication": "Cervicalgies récurrentes, notion de bloc fusionnel C3-C4. Technique : T1 et T2 sagittales, et axiale T2.",
+        "results": [
+          "Absence d'anomalie de signal/hauteur des corps vertébraux",
+          "Bloc fusionnel incomplet C3-C4 avec disque aminci",
+          "Fusion des facettes articulaires postérieures C3-C4",
+          "Discopathies C4-C5 et C5-C6 débutantes",
+          "Débord discal postéro-latéral gauche modéré en C4-C5",
+          "Espaces péri-médullaires et cordon médullaire normaux"
+        ],
+        "conclusion": "Bloc fusionnel C3-C4 et discopathies débutantes."
+      }
+    ]
+  },
+  {
+    "year": 2021,
+    "title": "Imagerie, régime cétogène, exploration système nerveux autonome et analyse de selles",
+    "description": "Poursuite des investigations et événements marquants.",
+    "imaging": [
+      {
+        "date": "2021-09-21",
+        "type": "IRM Rachis Cervical",
+        "location": "Rachis Cervical",
+        "clinic": "Centre de santé Gerland, Lyon",
+        "indication": "Bilan de cervicalgies chez un patient de 22 ans",
+        "results": [
+          "Raideur globale du rachis cervical",
+          "Ankylose vertébrale partielle C3-C4 côté droit",
+          "Discopathie protrusive focale C4-C5 postéromédiane et paramédiane gauche",
+          "Discopathies protrusives minimes C5-C6 et C6-C7",
+          "Pas d'anomalie médullaire ou des parties molles"
+        ],
+        "conclusion": "Possibilité de névralgie C5 gauche."
+      }
+    ],
+    "details": [
+      "01/10/2021 : Échec du régime cétogène (mon corps ne s’adapte pas à la cétogenèse – aucune énergie et sensation de malaise +++) :",
+      "  o Lors d’une sortie effondrement brutal avec convulsions – un monsieur me porte dans sa voiture et appelle les urgences.",
+      "  o Arrivé à l’hôpital : cortisol bas, acidose avec trou anionique augmenté, hypoglycémie, hypothermie.",
+      "  o Récupération très lente suite à cette épisode grosse aggravation de tout les symptômes. Le moindre stress me met en état de choc et la nourriture ne me donne quasiment plus d’énergie."
+    ],
+    "labResults": [
+      {
+        "reportDate": "2021-11-17",
+        "reportName": "Analyse de selles (Laboratoire Barbier)",
+        "labName": "Laboratoire Barbier, Metz/Verny",
+        "filePath": "ocr_doc_p86_p94.pdf",
+        "sections": [
+          {
+            "sectionName": "Analyse de selles",
+            "tests": [
+              { "name": "pH fécal", "value": 6.0, "referenceRange": "6.5-7.0", "status": "low", "comment": "-7.7% sous norme" },
+              { "name": "Enterococcus spp.", "value": "10³", "unit": "UFC/g", "referenceRange": "5.10⁵ - 1.10⁷", "status": "low" },
+              { "name": "Bifidobacterium spp.", "value": "10⁵", "unit": "UFC/g", "referenceRange": "1.10⁸ - 1.10¹¹", "status": "low" },
+              { "name": "Lactobacillus spp.", "value": "<10", "unit": "UFC/g", "referenceRange": "5.10⁵ - 1.10⁸", "status": "low" }
+            ],
+            "summary": "Flore microbienne fécale déséquilibrée. Déséquilibres majeurs de la flore : Déficit massif en Enterococcus spp (-99.8%), Déficit critique en Bifidobacterium (-99.9%), Pseudomonas en limite haute (10⁴), Bactéroïdes en limite basse (10⁸). → Confirme le déséquilibre profond du microbiote."
+          }
+        ]
+      },
+      {
+        "reportDate": "2024-02-07",
+        "reportName": "EXPLORATION DU SYSTEME NERVEUX AUTONOME",
+        "labName": "CHU Toulouse, Hôpital de Rangueil",
+        "doctor": "Dr Pierre ROBIN / Pr Jean-Michel SENARD",
+        "filePath": "ocr_doc_p13_p15.pdf",
+        "sections": [
+            {
+                "sectionName": "Résultats fonctionnels",
+                "tests": [
+                    {"name": "Respiration Ample", "value": "23 (1)", "unit":"bpm"},
+                    {"name": "Rapport 30/15", "value": "1,11 (1)"},
+                    {"name": "Variation PA orthostatisme", "value": "-10/+5 (0)", "unit":"mmHg"},
+                    {"name": "Sécrétion sudorale MS (SUDOSCAN®)", "value": 85, "unit":"µS"},
+                    {"name": "Sécrétion sudorale MI (SUDOSCAN®)", "value": 86, "unit":"µS"}
+                ],
+                "summary": "Syndrome de tachycardie posturale orthostatique. Déséquilibre de la balance sympatho vagale patent avec une hyperactivité sympathique."
+            }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2022,
+    "title": "Fibroscopie et Infection COVID-19",
+    "description": "Investigations digestives et impact du COVID-19.",
+    "details": [
+      "20/01/2022 - Fibroscopie à Marseille (Hôpital Saint Joseph) :",
+      "  Contexte : malaises post prandiaux avec aérophagie et vomissements itératifs, asthénie intense.",
+      "  Résultats complets : Œsophage : muqueuse normale, absence d'œsophagite; Cardia : en place; Estomac : gastrite minime sans ulcération; Bulbe et duodénum normaux; Biopsies systématiques (H. Pylori et maladie cœliaque).",
+      "  → Persistance d'une gastrite minime avec muqueuse œsophagienne normale.",
+      "02/04/2022 - Infection COVID-19 : Test PCR positif avec mutation K417N (Laboratoire Vaulx-en-Velin).",
+      "  Point charnière dans l'évolution : aggravation ultérieure de l'intolérance aux graisses.",
+      "  Aggravation post-COVID : Intolérance marquée aux graisses, Hypoglycémies réactionnelles, Apparition de « Biers spot » sur les mains et bras, Reflux biliaires, Éructations incessantes (centaines par jour – aggravation dysbiose), Aggravation de la dysautonomie, Prise de poids de 10kg (majoritairement graisse) impossible à perdre."
+    ]
+  },
+  {
+    "year": 2023,
+    "title": "Bilans Sanguins, Hormonaux, Mycotoxiques et Microbiote",
+    "description": "Multiples analyses révélant des perturbations complexes.",
+    "labResults": [
+      {
+        "reportDate": "2023-05-10",
+        "reportName": "BILAN SANGUIN COMPLET (Cerballiance)",
+        "labName": "Cerballiance Breteuil - Bouchard",
+        "doctor": "Dr DESSAINT JEAN-MARIE",
+        "filePath": "ocr_doc_p50_p65.pdf",
+        "sections": [
+          { "sectionName": "Déséquilibres électrolytiques et métaboliques", "tests": [ { "name": "Potassium", "value": 3.3, "unit": "mmol/L", "referenceRange": "3.5-5.1", "status": "low" }, { "name": "HDL-Cholestérol", "value": 1.05, "unit": "mmol/L", "referenceRange": "> 1.45", "status": "low" }, { "name": "Folates sériques", "value": 7.1, "unit": "nmol/L", "referenceRange": "9.8-42.5", "status": "low" } ]},
+          { "sectionName": "Anomalies hormonales", "tests": [ { "name": "S-DHEA", "value": 588.0, "unit": "µg/dL", "referenceRange": "238.4-539.3", "status": "high" }, {"name": "Prolactine", "value": 744.00, "unit": "mUI/L", "status": "high"} ]},
+          { "sectionName": "Contamination mycotoxique significative (MycoTOX Profile, Mosaic Diagnostics, 10/05/2023 sample, report 17/05/2023)", "tests": [ { "name": "Ochratoxine A", "value": 10.80, "unit": "ng/g créatinine", "referenceRange": "< 7.5", "status": "high" }, { "name": "Dihydrocitrinone", "value": 38.05, "unit": "ng/g créatinine", "referenceRange": "< 25", "status": "high" } ]}
+        ]
+      },
+      {
+        "reportDate": "2023-05-12",
+        "reportName": "PROFIL DES ACIDES BILIAIRES & MICROBIOTE INTESTINAL",
+        "labName": "LIMS mbnext",
+        "doctor": "MR BOYER CHRISTIAN",
+        "filePath": "ocr_doc_p106_p111.pdf; ocr_doc_p116_p123.pdf",
+        "sections": [
+            { "sectionName": "Acides Biliaires", "tests": [ { "name": "Acide cholique", "value": 2.496, "unit": "µmol/L", "referenceRange": "0.01-0.4", "status": "high" }, { "name": "Acide chénodésoxycholique", "value": 1.027, "unit": "µmol/L", "referenceRange": "0.017-0.45", "status": "high" }, { "name": "Acide désoxycholique", "value": 0.877, "unit": "µmol/L", "referenceRange": "0.06-0.45", "status": "high" }, { "name": "Acide lithocholique", "value": 0.030, "unit": "µmol/L", "referenceRange": "0.002-0.022", "status": "high" }, { "name": "Acide glycholique", "value": 0.519, "unit": "µmol/L", "referenceRange": "0.02-0.25", "status": "high" }, { "name": "Acide glycochénodésoxycholique", "value": 2.425, "unit": "µmol/L", "referenceRange": "0.15-1.35", "status": "high" } ]},
+            { "sectionName": "Microbiote intestinal - Phyla (distribution) (%)", "tests": [ { "name": "Fusobacteria", "value": 0.44, "unit": "%", "referenceRange": "0.001-0.004", "status": "high" } ], "summary": "Dysbiose sévère et complexe: Firmicutes augmenté, Bacteroidetes/Actinobacteria/Proteobacteria/Verrucomicrobia diminués, Fusobacteria très augmenté. Dorea, Bacteroides, B.vulgatus, B.fragilis, Escherichia, Desulfovibrio, Fusobacterium augmentés. Bifidobacterium, Akkermansia, Faecalibacterium, Butyrivibrio diminués."}
+        ]
+      },
+      {
+        "reportDate": "2023-05-23",
+        "reportName": "Bilan hormonal (Cerballiance/Cerba)",
+        "labName": "Cerballiance Breteuil - Bouchard / Cerba",
+        "doctor": "Dr DESSAINT JEAN MARIE",
+        "filePath": "ocr_doc_p71_p75.pdf",
+        "sections": [
+            { "sectionName": "Hormones", "tests": [ { "name": "S-DHEA", "value": "609.0 µg/dL", "referenceRange": "238.4 à 539.3", "status": "high" }, { "name": "Testostérone (Sérum)", "value": "13.3 nmol/l", "referenceRange": "N: 8,6 à 29,0", "status": "low" } ] }
+        ]
+      },
+      {
+        "reportDate": "2023-05-25",
+        "reportName": "Biomesight Gut Microbiome Test",
+        "labName": "Biomesight",
+        "filePath": "ocr_doc_p124_p139.pdf",
+        "sections": [
+            { "sectionName": "Scores fonctionnels altérés", "tests": [ {"name": "Santé intestinale", "value": "63.43/100"}, {"name": "Probiotiques", "value": "65.70/100"}, {"name": "Pathobiontes", "value": "33.33/100"} ]},
+            { "sectionName": "Déficits marqués en bactéries bénéfiques", "tests": [ {"name": "Akkermansia", "value": "-35%"}, {"name": "Bifidobacterium", "value": "-98%"} ]},
+            { "sectionName": "Excès en bactéries potentiellement pathogènes", "tests": [ {"name": "Proteobacteria", "value": "+112.5%"} ]}
+        ]
+      }
+    ],
+    "details": [
+      "19/05/2023 : parasitologie des selles négatives → Exclusion d'une infection parasitaire (Cerballiance).",
+      "02/06/2023 - Test SIBO negatif (Alphabio)."
+    ]
+  },
+  {
+    "year": 2024,
+    "title": "Profils et bilans récents (Acides Gras, Hématologie, Gastroscopie, IRM)",
+    "description": "Analyses d'acides gras, hématologiques, gastroscopie et IRM cervicale.",
+    "labResults": [
+      {
+        "reportDate": "2024-02-16",
+        "reportName": "Profil des Acides Gras & Oligoéléments (Bioavenir)",
+        "labName": "LABORATOIRE DE BIOLOGIE MEDICALE BIOAVENIR",
+        "doctor": "Dr CATHERINE ACHARD",
+        "filePath": "ocr_doc_p66_p70.pdf",
+        "sections": [
+            { "sectionName": "Profil des Acides Gras - RAPPORTS", "tests": [ {"name": "Indice Oméga 3", "value": 5.62, "unit":"%", "referenceRange": "8,00−11,00", "status": "low"}, {"name": "Rapport A. Arachidonique / EPA", "value": 23.03, "referenceRange": "5,20−12,70", "status": "high"}, {"name": "Rapport Oméga 6 / Oméga 3", "value": 5.03, "referenceRange": "<4,00", "status": "high"} ], "summary": "Acides Stéarique, Oléique, Linoléique élevés. EPA, DHA bas."}
+        ]
+      },
+      {
+        "reportDate": "2024-05-31",
+        "reportName": "Bilan hématologique (Aggravation) (Cerballiance Jean Jaures)",
+        "labName": "CERBALLIANCE JEAN JAURES",
+        "doctor": "ACCESS SAN+E",
+        "filePath": "ocr_doc_p76_p78.pdf",
+        "sections": [
+          {
+            "sectionName": "Anomalies hématologiques",
+            "tests": [
+              { "name": "Leucocytes", "value": "3.19 G/L", "referenceRange": "4,09 à 11,00", "status": "low" },
+              { "name": "Lymphocytes", "value": "0.95 G/L", "referenceRange": "1,34 à 3,92", "status": "low" },
+              { "name": "Plaquettes", "value": "154 G/L", "referenceRange": "172 à 398", "status": "low" }
+            ]
+          }
+        ]
+      },
+      {
+        "reportDate": "2024-06-24",
+        "reportName": "Bilan hématologique (Persistance) (Cerballiance Jean Jaures)",
+        "labName": "CERBALLIANCE JEAN JAURES",
+        "doctor": "Dr MAHAMADALY Houssene",
+        "filePath": "ocr_doc_p26_p27.pdf",
+        "sections": [
+          {
+            "sectionName": "Anomalies sanguines (avec légère amélioration)",
+            "tests": [
+              { "name": "Leucocytes", "value": "3.82 G/L", "referenceRange": "4,09 à 11,00", "status": "low" },
+              { "name": "Lymphocytes", "value": "1.28 G/L", "referenceRange": "1,34 à 3,92", "status": "low" },
+              { "name": "Plaquettes", "value": "172 G/L", "referenceRange": "172 à 398", "status": "normal" }
+            ]
+          }
+        ]
+      }
+    ],
+    "details": [
+        "14/10/2024 (Dr Bérangère MIOLANE, Lyon) - Gastroscopie :",
+        "  Indication : épigastralgies, éructations.",
+        "  Résultats : D2, D1, le bulbe sont normaux; Cavité gastrique examinée en vision directe et rétrovision; Muqueux clair; Biopsies réalisées à différents niveaux; Pince diaphragmatique située à 42 cm des arcades dentaires; Nouvelle œsophagite grade B → Première apparition documentée d'une œsophagite."
+    ],
+    "imaging": [
+      {
+        "date": "2024-12-02",
+        "type": "IRM cervicale",
+        "location": "Rachis cervical",
+        "clinic": "Hôpital Saint Joseph, Marseille",
+        "indication": "Bilan de discopathie dégénérative, douleur latérocervicale gauche",
+        "results": [
+          "Uncodiscarthrose C3-C4 avec net amincissement de l'interligne",
+          "Protrusion discale C4-C5 postéromédiane et paramédiane gauche",
+          "Bombement discal C5-C6 paramédian droit",
+          "Pas de signe de myélopathie ou conflit visible"
+        ],
+        "conclusion": "Discopathie C3-C4 et C4-C5 sans signe de myélopathie."
+      }
+    ]
+  },
+  {
+    "year": "Réponses aux traitements (Auto-rapporté)",
+    "title": "Réponses aux Traitements",
+    "description": "Résumé des réponses positives et négatives à divers traitements essayés, basé sur les notes du patient.",
+    "treatments": [
+      { "name": "Alflorex (B. infantis 35624)", "positive": true, "effects": ["Rémission complète pendant 1 mois", "Effet perdu après antibiothérapie (amoxicilline)"] },
+      { "name": "Antibiotique Flagyl", "positive": true, "effects": ["Amélioration significative des selles", "Réduction du ballonnement", "Disparition de l'halitose", "Disparition de la gorge prise le matin", "Retour de l'appétit pour le sucre (donne de l’énergie)", "Gain d’Energie", "Disparition des « Biers spot »", "Grosses améliorations des intolérances alimentaires", "Capacité à marcher à nouveau sans bas de contention force 3"], "notes": "Effet perdu après 3 semaines" },
+      { "name": "Colostrum", "positive": true, "effects": ["Amélioration des ballonnements", "Effet de relaxation profond (baisse de l’inflammation)", "Amélioration significative des intolérances alimentaires"] },
+      { "name": "Desmodium ascendens", "positive": true, "effects": ["Amélioration de 40% des symptômes plusieurs fois (mais ne marche pas à chaque fois)", "Meilleur appétit", "Meilleure tolérance au soleil"] },
+      { "name": "L-reuteri et Biogaia", "positive": true, "effects": ["Très grosse amélioration de la dysautonomie pendant 2 jours"], "notes": "Effet impossible à reproduire" },
+      { "name": "Nicotine (patches)", "positive": true, "effects": ["Amélioration durable de la dysautonomie (jusqu’à maintenant)"] },
+      { "name": "Charbon actif", "positive": true, "effects": ["Amélioration de la sensation d’empoisonnement"] },
+      { "name": "Bicarbonate", "positive": true, "effects": ["Soulagement des crises aigues d’inflammation de l’œsophage ou de l’estomac"] },
+      { "name": "Utilisation d’un filtre à air HEPA dans la zone de vie", "positive": true, "effects": ["Meilleur sommeil et + d’énergie"] },
+      { "name": "Inclinaison du lit à 15 degrés", "positive": true, "effects": ["Réveil moins empoisonné"] },
+      { "name": "Piracetam", "positive": true, "effects": ["Amélioration forte de ma dysautonomie et transformation de mes capacités cognitives mais perte totale de l’appétit"] },
+      { "name": "Mégadose de vitamine C 10-15 grammes", "positive": true, "effects": ["Amélioration de la circulation sanguine nette et baisse de l’inflammation pendant 4-5 heures"] },
+      { "name": "Injection de vitamine B12", "positive": true, "effects": ["Effet de relaxation profond"] },
+      { "name": "Injection de vitamine B1", "positive": true, "effects": ["Amélioration du sommeil"] },
+      { "name": "Augmentation de l’hydratation et rajout d’électrolytes", "positive": true, "effects": ["Amélioration de la digestion et amélioration de la dysautonomie"] },
+      { "name": "Benzodiazépines", "positive": true, "effects": ["Légère amélioration des symptômes digestifs mais aggravation des symptômes cognitifs"] },
+      { "name": "Magnésium", "positive": true, "effects": ["Disparition des crises d’angoisses"] },
+      { "name": "Arrêt de l’utilisation de lessive et adoucissants chimiques", "positive": true, "effects": ["Disparition de l’urticaire cholinergique"] },
+      { "name": "Cholestyramine", "positive": false, "effects": ["Aggravation la perte d'appetits"] },
+      { "name": "Vitamine D", "positive": false, "effects": ["Douleurs nerveuses", "Secousses hypnique à répétition au moment de l’endormissement avec grandes difficultés de s’endormir", "Crises d’angoisses physiologiques (décharges d’adrénalines)"] },
+      { "name": "Folates", "positive": false, "effects": ["Réaction sévère même à faible dose (empoisonnement)"] },
+      { "name": "TMF (transplantation matière fécale)", "positive": false, "effects": ["Transplantation à partir d’un jeune donneur en excellente santé.", "Amélioration d’une partie des symptômes avec même disparition de l’intolérance au sport temporairement.", "Mais ensuite apparition de symptômes d’arthrite : douleurs en bas du dos, épaules, et maintenant grosse aggravation des syndrome d’arthrite au niveau du cou.", "Également changements de personnalité."] },
+      { "name": "Mélatonine (1mg)", "positive": false, "effects": ["Enormément de mal à respirer, apparemment lié à l’effet anticholinergique (aggravation de la dysautonomie)"] },
+      { "name": "Antihistaminique h1-h2", "positive": false, "effects": ["Aggravation de la dysautonomie, fatigue extrême"] },
+      { "name": "Cuivre bysglicinate (en se basant sur le diagnostique d’une carence)", "positive": false, "effects": ["Douleurs forte aux nerfs avec perte de sensibilité permanente au niveau du touché"] },
+      { "name": "Souche de kefir contaminée", "positive": false, "effects": ["Apparition d’une dysbiose sévère type H2s avec souches agressives et résistantes aux traitements"] },
+      { "name": "Rifaximine", "positive": false, "effects": ["Apparition de deux infections fongiques des oreilles pendant le traitement qui ont causés une perte d’audition permanente"] },
+      { "name": "Régime carnivore", "positive": false, "effects": ["Amélioration partielle au début mais apparition d’une odeur très acide au niveau de la transpiration (qui n’est jamais partie depuis) et juste après mon corps ne supporte plus (sensation de malaise)"] }
+    ]
+  },
+  {
+    "year": "Notes diverses (Auto-rapporté)",
+    "title": "Autres notes cliniques et sensibilités",
+    "description": "Observations générales et sensibilités particulières.",
+    "notes": [
+      "Hypersensibilité gastrique à l'acidité",
+      "Cravings paradoxaux d'aliments acides",
+      "Amélioration de la langue saburrale par l'acidité",
+      "Hypersensibilité : Réactions à l'histamine, Flush, Alternance chaud/froid, Démangeaisons post-prandiales",
+      "Dysautonomie permanente : Malaises orthostatiques, Sensation pré-syncopale régulière, Aggravation lors des poussées de gastrite, Symptômes vagaux"
+    ]
+  }
+]

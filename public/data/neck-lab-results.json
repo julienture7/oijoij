@@ -1,0 +1,139 @@
+[
+  {
+    "reportDate": "2019-04-19",
+    "reportName": "SCANNER DU RACHIS CERVICAL",
+    "procedureType": "Scanner",
+    "labName": "ELSAN - CLINIQUE BOUCHARD",
+    "doctor": "Dr Karen LAMBOT / François ARNAUD (radiologue remplaçant)",
+    "clinic": "Clinique Bouchard, Marseille",
+    "referenceNumber": "FT: 2019-004637",
+    "indication": "Exploration d'une névralgie cervicobrachiale gauche.",
+    "techniqueDetails": "DLP: 840,20 mGy.cm. Examen réalisé en contraste spontané.",
+    "filePath": "ocr_doc_p11_p11.pdf",
+    "sections": [
+      {
+        "sectionName": "Résultats",
+        "findings": [
+          "Fusion quasi-complète C3-C4 (corps vertébraux, articulaires postérieures et processus épineux) responsable d'une discrète attitude scoliotique convexe gauche centrée sur le bloc C3-C4.",
+          "Pas de remaniement dégénératif significatif.",
+          "Rétrécissement foraminal minime C3-C4 à droite.",
+          "Pas d'autre rétrécissement foraminal ou extraforaminal visible par ailleurs.",
+          "Pas de débord discal significatif.",
+          "Pas d'étroitesse canalaire constitutionnelle."
+        ]
+      }
+    ],
+    "overallConclusion": "Fusion quasi-complète C3-C4 isolée (pas d'argument pour un syndrome de Klippel-Feil) responsable d'une discrète attitude scoliotique convexe gauche centrée sur le bloc C3-C4. Rétrécissement foraminal minime C3-C4 à droite."
+  },
+  {
+    "reportDate": "2019-07-01",
+    "reportName": "IRM CERVICALE",
+    "procedureType": "IRM",
+    "labName": "GIE D'IMAGERIE MEDICALE DU HAUT BUGEY - SERVICE D'IRM",
+    "doctor": "Docteur JOUVET Jean-Christophe / DR. TORDJMAN Avraham",
+    "clinic": "CLINIQUE AMBULATOIRE LES SAPINS / CLINIQUE CONVERT / POLYCLINIQUE DE LA FORET / CENTRE HOSPITALIER DU HAUT BUGEY OYONNAX / CLINIQUE MUTUALISTE D AMBERIEU / CLINIQUE LES CYBELLES / CENTRE HOSPITALIER LEOPOLD LE HON",
+    "referenceNumber": "FT: 2019-004637",
+    "indication": "Cervicalgies récurrentes depuis plusieurs années. Notion de bloc fusionnel C3-C4.",
+    "techniqueDetails": "T1 et T2 sagittales, et axiale T2.",
+    "filePath": "ocr_doc_p10_p10.pdf",
+    "sections": [
+      {
+        "sectionName": "Résultats",
+        "findings": [
+          "Dans le plan sagittal, absence d'anomalie de signal ou de hauteur suspecte des corps vertébraux.",
+          "Bloc fusionnel incomplet C3-C4 avec un disque C3-C4 aminci, sans processus herniaire surajouté objectivable.",
+          "Fusion associée des facettes articulaires postérieures C3-C4.",
+          "Discopathies C4-C5 et C5-C6 débutantes de type dégénératif modéré.",
+          "Dans le plan axial, à l'étage C4-C5, un débord modéré postéro-latéral gauche du disque d'allure non contraignante.",
+          "Pas de véritable processus herniaire focalisé identifiable.",
+          "Les espaces liquidiens péri-médullaires sont bien visualisés, le cordon médullaire étant de calibre normal et régulier.",
+          "Intégrité de la jonction bulbomédullaire."
+        ]
+      }
+    ],
+    "overallConclusion": "Bloc fusionnel C3-C4 incomplet avec disque aminci et fusion facettaire. Discopathies C4-C5/C5-C6 débutantes. Débord discal C4-C5 postéro-latéral gauche modéré."
+  },
+  {
+    "reportDate": "2021-09-21",
+    "reportName": "IRM RACHIS CERVICAL",
+    "procedureType": "IRM",
+    "labName": "CENTRE DE SANTE ET D’IMAGERIE DE GERLAND, Lyon",
+    "doctor": "Docteur MOULY Jérome / Docteur CLAUDE LEROY",
+    "clinic": "Zone Activité Artillerie – 5 Espace Henry Vallée – 69007 LYON",
+    "referenceNumber": null,
+    "indication": "Bilan de cervicalgies chez un patient de 22 ans.",
+    "techniqueDetails": "Séquences pondération T1, T2 FATSAT sagittales. Séquences pondérées Cube T2 3D axiales centrées sur les disques. Appareil utilisé : Signa Voyager 1,5 T GE MEDICAL SYSTEMS. Mise en service le 01/07/2019.",
+    "filePath": "ocr_doc_p08_p09.pdf",
+    "sections": [
+      {
+        "sectionName": "Résultat - Sur le plan de la statique rachidienne",
+        "findings": [
+          "Il existe une raideur globale du rachis cervical sans anomalie significative dans le plan frontal."
+        ]
+      },
+      {
+        "sectionName": "Résultat - Sur le plan morphologique",
+        "findings": [
+          "Respect de hauteur des corps vertébraux sans anomalie tumorale de la trame osseuse.",
+          "Il n'y a pas de sténose canalaire congénitale.",
+          "Il existe une ankylose vertébrale partielle latéralisées du côté droit de C3 et C4.",
+          "Pas d'anomalie discosomatique significative jusqu’à l’étage C4-C5."
+        ]
+      },
+      {
+        "sectionName": "Résultat - En C4-C5",
+        "findings": [
+          "Discopathie protrusive focale postéromédiane et paramédiane gauche discrètement ascendante sans réel signe de conflit discoradiculaire."
+        ]
+      },
+      {
+        "sectionName": "Résultat - En C5-C6 et C6-C7",
+        "findings": [
+          "Minime discopathie protrusive globale sans retentissement canalaire ou foraminal évident."
+        ]
+      },
+      {
+        "sectionName": "Résultat - En C7-T1",
+        "findings": [
+          "L’examen est sans particularité."
+        ]
+      },
+      {
+        "sectionName": "Résultat - Autres",
+        "findings": [
+          "Pas d'anomalie des espaces liquidiens périmédullaires, de la moelle et des parties molles périvertébrales.",
+          "Pas d'anomalie de la charnière cranio cervicale."
+        ]
+      }
+    ],
+    "overallConclusion": "EN SOMME: Ankylose cervicale C3-C4 partielle sans répercussion neurologique ou médullaire visible. Discopathie C4-C5 postéromédiane et paramédiane gauche pouvant éventuellement entraîner une névralgie C5 gauche."
+  },
+  {
+    "reportDate": "2024-12-02",
+    "reportName": "IRM du rachis cervicale",
+    "procedureType": "IRM",
+    "labName": "Hôpital Saint Joseph, Marseille - SERVICE DE RADIOLOGIE ET D’IMAGERIE MEDICALE",
+    "doctor": "Dr O. MONNET Olivier (Validé électroniquement)",
+    "clinic": "Hôpital Saint Joseph de Marseille",
+    "referenceNumber": null,
+    "indication": "Bilan de discopathie dégénérative, douleur latérocervicale gauche.",
+    "techniqueDetails": "T1, T2, Stir dans le plan sagittal et axial. Appareil : IRM SIEMENS 3T. Date de mise en service : 30/09/2024.",
+    "filePath": "ocr_doc_p07_p07.pdf",
+    "sections": [
+      {
+        "sectionName": "Résultats",
+        "findings": [
+          "Absence d'anomalie visible au niveau de la charnière cervico-occipitale.",
+          "Absence d'anomalie de signal du cordon médullaire.",
+          "Absence de spondylolisthésis ou de lésion osseuse traumatique récente.",
+          "Uncodiscarthrose C3-C4 avec net amincissement diffusion de l'interligne articulaire.",
+          "Protrusion discale postéromédiane et paramédiane gauche C4-C5 sans signe de myélopathie visible, sans réelle image de conflit notable.",
+          "Bombement discal paramédian droit en C5-C6 sans signe de conflit visible.",
+          "Pas d'autre anomalie discale visible.",
+          "Intégrité des rapports anatomiques articulaires postérieurs."
+        ]
+      }
+    ],
+    "overallConclusion": "Discopathie C3-C4 et C4-C5 sans véritable signe de myélopathie ou image de conflit visible."
+  }
+]

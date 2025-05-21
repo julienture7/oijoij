@@ -1,0 +1,34 @@
+[
+  {
+    "category": "Symptomes actuel (18/05/2025)",
+    "date": "2025-05-18",
+    "symptoms": [
+      { "description": "Réveil empoisonné et sommeil pas récuperateur" },
+      { "description": "Progression rapide du vitiligo" },
+      { "description": "Inflammation énorme à chaque repas" },
+      { "description": "Anhédonie et dépression chimique qui s’aggrave" },
+      { "description": "Taux glycémie a jeun", "details": "1,25-1,30" },
+      { "description": "Pic à 200 facilement avec sucre rapide." },
+      { "description": "Mauvaise haleine constante avec mauvais gout dans la bouche et gorge prise" },
+      { "description": "Prise de poids et particulièrement de gras" },
+      { "description": "Intolérance à la chaleur (urticaire cholinergique)" },
+      { "description": "Perte de sensibilité progressivement pire au niveau de la peau (je pense que c’est lié à l’anhedonie manque de dopamine)" },
+      { "description": "Transpiration très acide (odeur vinaigre), si je prends du kombucha ou autre chose acide, dysautonomie +++ et jambes qui sont commes crampés et plus d’énergie, le bicarbonate aide" },
+      { "description": "Regulierement l’impression que mon cou va se casser et mon dos aussi (examen montre une détérioration discopathie)" }
+    ]
+  },
+  {
+    "category": "Protocole achard effet (19/03/2024)",
+    "date": "2024-03-19",
+    "symptoms": [
+      { "description": "Perte de poids et perte de retention d’eau rapide" },
+      { "description": "Amélioration anhedonie depression chimique de jour en jour" },
+      { "description": "Disparition dysbiose h2s, disparition craving souffrés" },
+      { "description": "Amélioration des selles parfaites" },
+      { "description": "Apparition de craving de sucre qui me donne beaucoup d’energie vs pas d’energie avant" },
+      { "description": "Disparition des biers spots sur les mains" },
+      { "description": "Disparition de la gorge prise le matin" },
+      { "description": "Apparition d’un gout acidulé dans la bouche" }
+    ]
+  }
+]

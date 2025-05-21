@@ -1,0 +1,169 @@
+[
+  {
+    "reportDate": "2023-05-12",
+    "reportName": "MICROBIOTE INTESTINAL (Analyse métagénomique)",
+    "labName": "LIMS mbnext",
+    "doctor": "MR BOYER CHRISTIAN",
+    "filePath": "ocr_doc_p106_p111.pdf; ocr_doc_p116_p123.pdf",
+    "sections": [
+      {
+        "sectionName": "Microbiote intestinal - Phyla (distribution) (%)",
+        "comment": "Analyse métagénomique, Séquençage démarré le 22/05/23, Rapporté le 30/05/23",
+        "tests": [
+          { "name": "Firmicutes", "value": 64.53, "unit": "%", "referenceRange": "43.83-53.55", "status": "high" },
+          { "name": "Bacteroidetes", "value": 30.40, "unit": "%", "referenceRange": "35.01-45.92", "status": "low" },
+          { "name": "Actinobacteria", "value": 0.94, "unit": "%", "referenceRange": "1.08-2.82", "status": "low" },
+          { "name": "Proteobacteria", "value": 1.81, "unit": "%", "referenceRange": "2.75-5.32", "status": "low" },
+          { "name": "Verrucomicrobia", "value": 0.03, "unit": "%", "referenceRange": "0.038-1.21", "status": "low" },
+          { "name": "Fusobacteria", "value": 0.44, "unit": "%", "referenceRange": "0.001-0.004", "status": "high" },
+          { "name": "Euryarchaeota", "value": 0.00, "unit": "%", "referenceRange": "0-0.028", "status": "normal" },
+          { "name": "Non classés", "value": 1.85, "unit": "%" },
+          { "name": "Rapport Firmicutes/Bacteroidetes", "value": 2.123, "referenceRange": "0.91-2.75", "status": "normal" }
+        ]
+      },
+      {
+        "sectionName": "Microbiote intestinal - Détail des familles (%)",
+        "tests": [
+          { "name": "(E) Faecalibacterium prausnitzii", "value": 2.261, "referenceRange": "4.43-8.42", "status": "low" },
+          { "name": "(G)Eubacterium", "value": 2.229, "referenceRange": "0.6-1.21", "status": "high" },
+          { "name": "(G)Roseburia", "value": 4.263, "referenceRange": "1.14-3.08", "status": "high" },
+          { "name": "(G)Ruminococcus", "value": 4.156, "referenceRange": "0.66-2.05", "status": "high" },
+          { "name": "(G)Blautia", "value": 5.425, "referenceRange": "1.22-2.43", "status": "high" },
+          { "name": "(G)Butyrivibrio", "value": 0.012, "referenceRange": "0.037-0.13", "status": "low" },
+          { "name": "(E) Clostridium scindens", "value": 0.002, "referenceRange": "0.002-0.005", "status": "normal" },
+          { "name": "(G)Lactobacillus", "value": 0.021, "referenceRange": "0.007-0.022", "status": "normal" },
+          { "name": "(G)Dorea", "value": 1.156, "referenceRange": "0.28-0.67", "status": "high" },
+          { "name": "(G)Bacteroides", "value": 26.388, "referenceRange": "14.34-22.73", "status": "high" },
+          { "name": "(E) Bacteroides caccae", "value": 0.005, "referenceRange": "0.029-0.55", "status": "low" },
+          { "name": "(E) Bacteroides vulgatus", "value": 5.263, "referenceRange": "0.572-3.524", "status": "high" },
+          { "name": "(E) Bacteroides thetaiotaomicron", "value": 0.285, "referenceRange": "0.097-0.476", "status": "normal" },
+          { "name": "(E) Bacteroides fragilis", "value": 0.995, "referenceRange": "0.004-0.11", "status": "high" },
+          { "name": "(G)Alistipes", "value": 1.617, "referenceRange": "1.83-4.5", "status": "low" },
+          { "name": "(G)Prevotella", "value": 0.126, "referenceRange": "0.125-6.66", "status": "normal" },
+          { "name": "(E) Prevotella copri", "value": "N.D.", "referenceRange": "0.039-0.93", "status": "low" },
+          { "name": "(G)Bifidobacterium", "value": 0.029, "referenceRange": "0.05-0.6", "status": "low" },
+          { "name": "(G)Escherichia", "value": 0.225, "referenceRange": "0.014-0.13", "status": "high" },
+          { "name": "(G)Proteus", "value": "N.D.", "referenceRange": "0-0.0005", "status": "normal" },
+          { "name": "(G)Klebsiella", "value": "N.D.", "referenceRange": "0-0.001", "status": "normal" },
+          { "name": "(G)Enterobacter", "value": "N.D.", "referenceRange": "0-0.001", "status": "normal" },
+          { "name": "(G)Desulfovibrio", "value": 0.839, "referenceRange": "0.017-0.14", "status": "high" },
+          { "name": "(G)Desulfuromonas", "value": "N.D.", "referenceRange": "0-0.0005", "status": "normal" },
+          { "name": "(G)Bilophila", "value": 0.256, "referenceRange": "0.11-0.41", "status": "normal" },
+          { "name": "(E)Akkermansia muciniphila", "value": 0.024, "referenceRange": "0.02-0.95", "status": "low" },
+          { "name": "(G)Fusobacterium", "value": 0.437, "referenceRange": "0-0.002", "status": "high" },
+          { "name": "(G)Methanobrevibacter", "value": "N.D.", "referenceRange": "0-0.018", "status": "normal" }
+        ]
+      }
+    ]
+  },
+  {
+    "reportDate": "2023-05-25",
+    "reportName": "Biomesight Gut Microbiome Test",
+    "labName": "Biomesight",
+    "doctor": null,
+    "filePath": "ocr_doc_p124_p139.pdf",
+    "sections": [
+      {
+        "sectionName": "Gut Wellness Score",
+        "tests": [
+          { "name": "Gut Wellness Score", "value": 63.43, "status": "abnormal", "comment": "NEEDS IMPROVEMENT" }
+        ]
+      },
+      {
+        "sectionName": "Overall Indicators",
+        "tests": [
+          { "name": "Diversity", "value": 91.00, "unit": "%", "status": "normal" },
+          { "name": "Probiotics", "value": 65.70, "unit": "%", "status": "borderline" },
+          { "name": "Commensals", "value": 77.60, "unit": "%", "status": "normal" },
+          { "name": "Pathobionts", "value": 33.33, "unit": "%", "status": "abnormal", "comment": "POOR" }
+        ]
+      },
+      {
+        "sectionName": "Probiotics - Key Species (%)",
+        "tests": [
+          { "name": "Akkermansia", "value": 0.013, "referenceRange": "0.02-3.0%", "status": "low" },
+          { "name": "Bifidobacterium", "value": 0.049, "referenceRange": ">=2.5-5.0%", "status": "low" },
+          { "name": "Blautia", "value": 8.198, "referenceRange": "5.0-15.0%", "status": "normal" },
+          { "name": "Faecalibacterium", "value": 10.709, "referenceRange": ">=10.0-15.0%", "status": "normal" },
+          { "name": "Lactobacillus", "value": 0.003, "referenceRange": "0.01-0.5%", "status": "low" },
+          { "name": "Roseburia", "value": 3.145, "referenceRange": "5.0-11.0%", "status": "low" },
+          { "name": "Ruminococcus (probiotic genus)", "value": 4.873, "referenceRange": "0.0-15.0%", "status": "normal" }
+        ]
+      },
+      {
+        "sectionName": "Pathobionts - Key Species/Groups (%)",
+        "tests": [
+          { "name": "Proteobacteria (phylum)", "value": 8.498, "referenceRange": "0.0-4.0%", "status": "high" },
+          { "name": "Bilophila wadsworthia", "value": 1.852, "referenceRange": "0.0-0.25%", "status": "high" },
+          { "name": "Desulfovibrio", "value": 0.598, "referenceRange": "0.0-0.25%", "status": "high" },
+          { "name": "Fusobacteria (phylum)", "value": 0.396, "referenceRange": "0.0-0.03%", "status": "high" }
+        ]
+      },
+      {
+        "sectionName": "Lipopolysaccharides (LPS) - Relative abundance by bacterial stain",
+        "tests": [
+          { "name": "Gram-Positive", "value": "39.37%", "status": "normal" },
+          { "name": "Gram-Negative", "value": "57.66%", "status": "normal" }
+        ]
+      }
+    ]
+  },
+  {
+    "reportDate": "2021-11-17",
+    "reportName": "MICROBIOLOGIE COMPLETE FECALE",
+    "labName": "Laboratoire Barbier, Metz/Verny",
+    "doctor": null,
+    "filePath": "ocr_doc_p86_p94.pdf",
+    "sections": [
+      {
+        "sectionName": "COPROCULTURE−Flore aérobie sous−dominante",
+        "summary": "Flore microbienne fécale déséquilibrée.",
+        "tests": [
+          { "name": "Escherichia coli", "value": "10⁶", "unit": "UFC/g", "referenceRange": "5.10⁵ - 1.10⁷", "status": "normal" },
+          { "name": "Enterococcus spp.", "value": "10³", "unit": "UFC/g", "referenceRange": "5.10⁵ - 1.10⁷", "status": "low" },
+          { "name": "Pseudomonas spp.", "value": "10⁴", "unit": "UFC/g", "referenceRange": "0 - 1.10⁴", "status": "borderline" },
+          { "name": "Streptocoque alpha hémolytique", "value": "10⁴", "unit": "UFC/g", "referenceRange": "0 - 1.10⁴", "status": "borderline" }
+        ]
+      },
+      {
+        "sectionName": "COPROCULTURE−Flore anaérobie dominante",
+        "tests": [
+          { "name": "Bactéroïdes spp.", "value": "10⁸", "unit": "UFC/g", "referenceRange": "1.10⁸ - 1.10¹¹", "status": "normal" },
+          { "name": "Bifidobacterium spp.", "value": "10⁵", "unit": "UFC/g", "referenceRange": "1.10⁸ - 1.10¹¹", "status": "low" },
+          { "name": "Lactobacillus spp.", "value": "<10", "unit": "UFC/g", "referenceRange": "5.10⁵ - 1.10⁸", "status": "low" }
+        ]
+      },
+      {
+        "sectionName": "COPROCULTURE−Mycologie",
+        "tests": [
+          { "name": "Moisissures", "value": "10", "referenceRange": "0 - 1.10²", "status": "normal" }
+        ]
+      },
+      {
+        "sectionName": "COPROLOGIE FONCTIONNELLE - DIGESTION MICROBIENNE",
+        "tests": [
+          { "name": "Ph fécal", "value": 6.0, "referenceRange": "6,5−7,0", "status": "low" }
+        ]
+      }
+    ]
+  },
+  {
+    "reportDate": "2023-05-09",
+    "reportName": "TEST RESPIRATOIRE : SIBO − IMO (Lactulose)",
+    "labName": "Alphabio",
+    "doctor": "Dr DESSAINT JEAN−MARIE",
+    "filePath": "ocr_doc_p95_p99.pdf",
+    "sections": [
+      {
+        "sectionName": "TEST RESPIRATOIRE (Lactulose 10g)",
+        "tests": [
+          { "name": "Méthane expiré (CH4) T0", "value": 0, "unit": "ppm" },
+          { "name": "Méthane expiré (CH4) T10", "value": 8, "unit": "ppm" },
+          { "name": "Hydrogène expiré (H2) T0", "value": 4, "unit": "ppm" },
+          { "name": "Hydrogène expiré (H2) T10", "value": 74, "unit": "ppm" }
+        ],
+        "summary": "Symptômes: Ballonnements. Conclusion: Absence de pullulation de type SIBO/IMO."
+      }
+    ]
+  }
+]

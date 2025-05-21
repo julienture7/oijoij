@@ -1,0 +1,129 @@
+{
+  "iggSensitivities": {
+    "reportDate": "2024-02-20",
+    "labName": "Bioavenir",
+    "technique": "RIDA®CHIP FoodGuide",
+    "candidaAlbicans": "sérologie positive",
+    "categories": [
+      {
+        "name": "CÉRÉALES GLUTEN",
+        "items": [
+          { "foodName": "Gluten", "value": 3.4, "unit": "µg/ml", "reactionLevel": "none" }
+        ]
+      },
+      {
+        "name": "CÉRÉALES SANS GLUTEN",
+        "items": [
+          { "foodName": "Riz", "value": 4.2, "unit": "µg/ml", "reactionLevel": "none" }
+        ]
+      },
+      {
+        "name": "EDULCORANTS",
+        "items": [
+          { "foodName": "Miel", "value": 3.8, "unit": "µg/ml", "reactionLevel": "none" }
+        ]
+      },
+      {
+        "name": "FRUITS",
+        "items": [
+          { "foodName": "Ananas", "value": 2.9, "unit": "µg/ml", "reactionLevel": "none" },
+          { "foodName": "Banane", "value": 2.0, "unit": "µg/ml", "reactionLevel": "none" },
+          { "foodName": "Orange", "value": 0.9, "unit": "µg/ml", "reactionLevel": "none" },
+          { "foodName": "Poivron", "value": 1.5, "unit": "µg/ml", "reactionLevel": "none" },
+          { "foodName": "Tomate", "value": 1.8, "unit": "µg/ml", "reactionLevel": "none" }
+        ]
+      },
+      {
+        "name": "GRAINES ET NOIX",
+        "items": [
+          { "foodName": "Amande", "value": 3.0, "unit": "µg/ml", "reactionLevel": "none" },
+          { "foodName": "Noisette", "value": 2.3, "unit": "µg/ml", "reactionLevel": "none" }
+        ]
+      },
+      {
+        "name": "HERBES ET ÉPICES",
+        "items": [
+          { "foodName": "Ail", "value": 10.7, "unit": "µg/ml", "reactionLevel": "moderate" },
+          { "foodName": "Vanille", "value": 4.4, "unit": "µg/ml", "reactionLevel": "none" }
+        ]
+      },
+      {
+        "name": "LÉGUMES",
+        "items": [
+          { "foodName": "Carotte", "value": 1.4, "unit": "µg/ml", "reactionLevel": "none" },
+          { "foodName": "Haricot vert", "value": 7.2, "unit": "µg/ml", "reactionLevel": "none" },
+          { "foodName": "Petit pois", "value": 1.2, "unit": "µg/ml", "reactionLevel": "none" },
+          { "foodName": "Soja", "value": 1.4, "unit": "µg/ml", "reactionLevel": "none" }
+        ]
+      },
+      {
+        "name": "LEVURES",
+        "items": [
+          { "foodName": "Levures", "value": 1.4, "unit": "µg/ml", "reactionLevel": "none" }
+        ]
+      },
+      {
+        "name": "OEUFS",
+        "items": [
+          { "foodName": "Blanc d´oeuf", "value": 2.4, "unit": "µg/ml", "reactionLevel": "none" },
+          { "foodName": "Jaune d´oeuf", "value": 2.5, "unit": "µg/ml", "reactionLevel": "none" }
+        ]
+      },
+      {
+        "name": "POISSONS ET FRUITS DE MER",
+        "items": [
+          { "foodName": "Écrevisse", "value": 6.1, "unit": "µg/ml", "reactionLevel": "none" }
+        ]
+      },
+      {
+        "name": "PRODUITS LAITIERS",
+        "items": [
+          { "foodName": "Lait de vache", "value": 2.2, "unit": "µg/ml", "reactionLevel": "none" },
+          { "foodName": "Lait et fromage de brebis", "value": 1.8, "unit": "µg/ml", "reactionLevel": "none" },
+          { "foodName": "Lait et fromage de chèvre", "value": 2.0, "unit": "µg/ml", "reactionLevel": "none" }
+        ]
+      },
+      {
+        "name": "VIANDES",
+        "items": [
+          { "foodName": "Poulet", "value": 1.8, "unit": "µg/ml", "reactionLevel": "none" }
+        ]
+      }
+    ]
+  },
+  "igeSensitivities": {
+    "reportDate": "2024-02-26",
+    "labName": "Eurofins Biomnis",
+    "technique": "F.E.I.A.,Euroline Euro Immun",
+    "ccdMarqueurCarbohydrates": { "value": 0, "unit": "Classe EAST", "interpretation": "Absence d'IgEs" },
+    "categories": [
+      {
+        "name": "Aliments (IgE)",
+        "items": [
+          { "foodName": "Arachide (f13)", "value": 0, "unit": "Classe EAST", "interpretation": "Absence d'IgEs" },
+          { "foodName": "Pois (f12)", "value": 0, "unit": "Classe EAST", "interpretation": "Absence d'IgEs" },
+          { "foodName": "Farine de blé (f4)", "value": 0, "unit": "Classe EAST", "interpretation": "Absence d'IgEs" },
+          { "foodName": "Avocat (f96)", "value": 0, "unit": "Classe EAST", "interpretation": "Absence d'IgEs" },
+          { "foodName": "Morue (f3)", "value": 0, "unit": "Classe EAST", "interpretation": "Absence d'IgEs" },
+          { "foodName": "Blanc d'oeuf (f1)", "value": 0, "unit": "Classe EAST", "interpretation": "Absence d'IgEs" },
+          { "foodName": "Pomme (f49)", "value": 0, "unit": "Classe EAST", "interpretation": "Absence d'IgEs" },
+          { "foodName": "Pêche (f95)", "value": 0, "unit": "Classe EAST", "interpretation": "Absence d'IgEs" },
+          { "foodName": "Noisette (f17)", "value": 0, "unit": "Classe EAST", "interpretation": "Absence d'IgEs" },
+          { "foodName": "Soja (f14)", "value": 0, "unit": "Classe EAST", "interpretation": "Absence d'IgEs" },
+          { "foodName": "Céleri (f85)", "value": 0, "unit": "Classe EAST", "interpretation": "Absence d'IgEs" },
+          { "foodName": "Porc (f26)", "value": 0, "unit": "Classe EAST", "interpretation": "Absence d'IgEs" },
+          { "foodName": "Crevette (f24)", "value": 0, "unit": "Classe EAST", "interpretation": "Absence d'IgEs" },
+          { "foodName": "Lait de vache (f2)", "value": 0, "unit": "Classe EAST", "interpretation": "Absence d'IgEs" },
+          { "foodName": "Kiwi (f84)", "value": 0, "unit": "Classe EAST", "interpretation": "Absence d'IgEs" }
+        ]
+      },
+      {
+        "name": "Acariens (IgE)",
+        "items": [
+          { "allergenName": "Dermatophagoides pteronyssimus (d1)", "value": 4, "unit": "Classe EAST", "interpretation": "Concentration élevée d'IgEs (17.5 à 50 kU/l)" },
+          { "allergenName": "Dermatophagoides farinae (d2)", "value": 5, "unit": "Classe EAST", "interpretation": "Concentration très élevée d'IgEs (50 à 100 kU/l)" }
+        ]
+      }
+    ]
+  }
+}

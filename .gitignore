@@ -1,0 +1,53 @@
+# Dependencies
+node_modules/
+
+# Next.js build output and cache
+.next/
+out/
+
+# Bun - bun.lockb is the binary lockfile.
+# bun.lock (the text file) SHOULD be committed.
+# If you see a .bun-debug or similar, add it too.
+# For now, we'll assume bun.lock is the one you want to keep.
+
+# Local environment variables
+# IMPORTANT: Never commit your actual .env files with secrets!
+.env
+.env.local
+.env.development.local
+.env.production.local
+.env.test.local
+
+# It's good practice to commit a .env.example file if you have one
+# !.env.example
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# Add Bun-specific log files if they exist (e.g., bun-debug.log)
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Temporary/Generated files from your listing
+# If 'output.txt' and 'structure.txt' are not meant to be part of the repository,
+# keep them here. If they are important files you want to track, remove them from this .gitignore.
+output.txt
+structure.txt
+
+# Other common Next.js ignores
+# next-env.d.ts is usually generated and can be ignored,
+# but many prefer to commit it for explicitness, especially if customized.
+# If you don't customize it and it's always generated, you can add:
+# next-env.d.ts

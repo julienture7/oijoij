@@ -1,0 +1,96 @@
+[
+  {
+    "reportDate": "2019-02-01",
+    "reportName": "PRELEVEMENTS ENDOSCOPIQUES DIGESTIFS HAUTS",
+    "procedureType": "Endoscopie avec Biopsies",
+    "labName": "Medipath",
+    "doctor": "Dr ROLLAND VINCENS ANNE-LAU / Dr BUONO Jean Pascal (validator)",
+    "clinic": "PMSI POLYCLINIQUE PARC RAMBOT",
+    "referenceNumber": "19EE02121",
+    "filePath": "ocr_doc_p12_p12.pdf",
+    "sections": [
+      {
+        "sectionName": "BIOPSIES DU DUODENUM (2 fragments)",
+        "findings": [
+          "Muqueuse normale.",
+          "Absence d'atrophie villositaire.",
+          "Absence de parasite."
+        ],
+        "diagnostic": "Muqueuse normale."
+      },
+      {
+        "sectionName": "BIOPSIES DE L'ESTOMAC (4 fragments)",
+        "findings": [
+          "Gastrite interstitielle chronique légère non active.",
+          "Sans atrophie.",
+          "Sans métaplasie intestinale selon le système de Sydney.",
+          "Il n'a pas été vu de signes directs ou indirects pouvant évoquer une infection à Helicobacter pylori.",
+          "Il n'a pas été observé de dysplasie ou de signe de malignité."
+        ],
+        "diagnostic": "Gastrite interstitielle chronique légère non active, sans atrophie, sans métaplasie intestinale selon le système de Sydney."
+      }
+    ],
+    "overallConclusion": "Résultats des biopsies duodénales et gastriques conformes aux diagnostics détaillés."
+  },
+  {
+    "reportDate": "2022-01-20",
+    "reportName": "COMPTE RENDU D'EXPLORATION - FIBROSCOPIE",
+    "procedureType": "Fibroscopie",
+    "labName": "Hôpital Saint Joseph, Marseille - HOPITAL DE JOUR EXPLORATIONS DIGESTIVES",
+    "doctor": "Dr LE BARS Olivier",
+    "clinic": "Hôpital Saint Joseph",
+    "referenceNumber": "NDM : 00773814",
+    "indication": "Bilan de malaises post prandiaux avec aérophagie et vomissements itératifs, asthénie intense. Bilan endocrinien déjà réalisé, négatif. Contrôle endoscopique.",
+    "anesthesiaType": "Générale",
+    "filePath": "ocr_doc_p11_p11_bis.pdf",
+    "sections": [
+      {
+        "sectionName": "OESOPHAGE",
+        "findings": ["Muqueuse normale.", "Absence d'oesophagite."]
+      },
+      {
+        "sectionName": "CARDIA",
+        "findings": ["En place."]
+      },
+      {
+        "sectionName": "ESTOMAC",
+        "findings": ["Siège d'une gastrite minime, pas de lésion ulcérée, biopsies systématiques pour recherche d'Helicobacter Pylori."]
+      },
+      {
+        "sectionName": "BULBE",
+        "findings": ["Normal."]
+      },
+      {
+        "sectionName": "DUODENUM",
+        "findings": ["Normal. Biopsies du D1 pour recherche d'atrophie villositaire."]
+      }
+    ],
+    "overallConclusion": "Bilan endoscopique dans les limites de la normale, biopsies systématiques pour recherche d'intolérance au gluten et d'infection à Helicobacter Pylori."
+  },
+  {
+    "reportDate": "2024-10-14",
+    "reportName": "GASTROSCOPIE sous AL",
+    "procedureType": "Gastroscopie",
+    "labName": null,
+    "doctor": "Dr Bérangère MIOLANE",
+    "clinic": "Clinique du parc, 155 Bd de Stalingrad, 69006 LYON",
+    "referenceNumber": null,
+    "indication": "Epigastralgies, éructations.",
+    "tolerance": "Bonne",
+    "filePath": "ocr_doc_p75_p75.pdf",
+    "sections": [
+      {
+        "sectionName": "Description de la Procédure et Résultats",
+        "findings": [
+          "Introduction et descente du vidéogastroscope n°5 (2733024) sous contrôle de la vue jusqu'en D2.",
+          "Au retrait, D2, D1, le bulbe sont normaux. biopsies (flacon 1).",
+          "La cavité gastrique est examinée en vision directe et rétrovision sur l'angulus et la grosse tubérosité.",
+          "Le la muqueux est clair, biopsies antrales et angulaires (flacon 2) et fundiques (flacon 3).",
+          "La pince diaphragmatique est située à 42 cm des arcades dentaires surmontée d'une oesophagite grade B.",
+          "L'oesophage est normal."
+        ]
+      }
+    ],
+    "overallConclusion": "Oesophagite grade B, biopsies."
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "reportDate": "2023-05-25",
+  "gutWellnessScore": {
+    "value": 63.43,
+    "status": "NEEDS IMPROVEMENT"
+  },
+  "diversity": 91.00,
+  "probiotics": 65.70,
+  "commensals": 77.60,
+  "pathobionts": 33.33,
+  "keyBacteria": [
+    { "name": "Akkermansia", "value": "0.013%", "range": "(0.02-3.0%)", "interpretation": "Low", "score": "65.0%" },
+    { "name": "Bifidobacterium", "value": "0.049%", "range": "(>=2.5-5.0%)", "interpretation": "Low", "score": "1.96%" },
+    { "name": "Faecalibacterium", "value": "10.709%", "range": "(>=10.0-15.0%)", "interpretation": "Optimal", "score": "100.0%" },
+    { "name": "Lactobacillus", "value": "0.003%", "range": "(0.01-0.5%)", "interpretation": "Low", "score": "30.0%" },
+    { "name": "Roseburia", "value": "3.145%", "range": "(5.0-11.0%)", "interpretation": "Low", "score": "62.9%" },
+    { "name": "Bacteroidetes (Phylum)", "percentile": 68, "value": "47.056%", "range": "(0.0-35.0%)", "interpretation": "High" },
+    { "name": "Proteobacteria (Phylum - Pathobiont)", "value": "8.498%", "range":"(0.0-4.0%)", "interpretation": "High", "score": "0.0%"},
+    { "name": "Fusobacteria (Phylum - Pathobiont)", "value": "0.396%", "range":"(0.0-0.03%)", "interpretation": "High", "score": "0.0%"}
+  ],
+  "recommendations": {
+    "foodToAdd": ["cranberries", "strawberries", "green tea", "matcha", "pomegranate", "apples", "apricots", "artichoke", "asparagus", "banana", "beans", "beetroot", "broccoli", "carrots", "cashews", "cherries", "chickpeas", "chicory", "fennel", "garlic", "leek", "lentils", "lettuce", "onions", "oranges", "raddichio", "black sesame seeds", "soy flour", "white beans", "adzuki beans", "pistachios", "pinto beans", "cinnamon", "cloves", "holy basil", "turmeric", "whole grains", "cacao", "virgin coconut oil"],
+    "foodToReduce": ["rosemary extract", "red meat", "processed foods", "sugars"],
+    "probioticsToAdd": ["Lactobacillus rhamnosus GG", "Bifidobacterium longum BB536", "Bacillus coagulans", "Lactobacillus plantarum", "Lactobacillus casei", "Saccharomyces boulardii"]
+  }
+}
