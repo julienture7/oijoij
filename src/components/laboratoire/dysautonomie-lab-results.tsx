@@ -3,8 +3,10 @@ import React, { useEffect, useState } from "react";
 import { format } from "date-fns";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Heart, Activity, Stethoscope, AlertTriangle } from "lucide-react";
-import type { DysautonomiaLabReport } from "@/data/types";
+import { Heart, Activity, Stethoscope, AlertTriangle, FileText, MapPin } from "lucide-react"; // Added FileText, MapPin
+import type { DysautonomiaLabReport, LabTest } from "@/data/types"; // Added LabTest for status typing
+import { getStatusColor, getStatusBadgeColor } from "@/lib/lab-utils"; // Import highlighting utils
+import Link from "next/link"; // Import Link
 
 interface DysautonomieLabResultsProps {
   className?: string;
@@ -78,16 +80,26 @@ export function DysautonomieLabResults({ className }: DysautonomieLabResultsProp
     <div className={className}>
       <Card className="mb-6">
         <CardHeader className="pb-6">
-          <div className="flex justify-between items-start">
+          <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2">
             <div>
-              <CardTitle className="text-2xl">{report.reportName}</CardTitle>
-              <CardDescription>
+              <CardTitle className="text-2xl flex items-center">
+                 <FileText size={28} className="mr-3 text-primary/80" />
+                {report.reportName}
+              </CardTitle>
+              <CardDescription className="mt-1">
                 Examen réalisé le {format(new Date(report.examinationDate), "dd/MM/yyyy")} par {report.doctorPerforming}
               </CardDescription>
             </div>
-            <Badge className="bg-blue-100 text-blue-800 hover:bg-blue-100">
-              {report.procedureType}
-            </Badge>
+            <div className="flex flex-col items-end gap-1">
+              <Badge variant="secondary" className="whitespace-nowrap">
+                {report.procedureType}
+              </Badge>
+              {report.filePath && (
+                <Link href={`/labs/${report.filePath.split(';')[0]}`} target="_blank" legacyBehavior>
+                  <a className="text-xs text-primary hover:underline">Voir PDF</a>
+                </Link>
+              )}
+            </div>
           </div>
         </CardHeader>
         <CardContent>
@@ -95,28 +107,38 @@ export function DysautonomieLabResults({ className }: DysautonomieLabResultsProp
             <Card>
               <CardHeader className="pb-2">
                 <CardTitle className="text-lg flex items-center gap-2">
-                  <Stethoscope className="h-5 w-5" />
+                  <Stethoscope className="h-5 w-5 text-primary/70" />
                   Informations Générales
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <div className="space-y-3">
+                <div className="space-y-2 text-sm">
                   <div>
-                    <p className="text-sm text-muted-foreground">Laboratoire</p>
-                    <p className="font-medium">{report.labName}</p>
+                    <span className="text-muted-foreground">Patient: </span>
+                    <span className="font-medium">{report.patientDetails.name}</span>
                   </div>
                   <div>
-                    <p className="text-sm text-muted-foreground">Service</p>
-                    <p className="font-medium">{report.service}</p>
+                    <span className="text-muted-foreground">Né(e) le: </span>
+                    <span className="font-medium">{report.patientDetails.dob.replace(/\//g, '-')}</span>
+                  </div>
+                  {report.patientDetails.addressProvidedToLab && (
+                    <div>
+                      <span className="text-muted-foreground">Adresse (fournie): </span>
+                      <span className="font-medium">{report.patientDetails.addressProvidedToLab}</span>
+                    </div>
+                  )}
+                  <hr className="my-2"/>
+                  <div>
+                    <span className="text-muted-foreground">Laboratoire: </span>
+                    <span className="font-medium">{report.labName}</span>
                   </div>
                   <div>
-                    <p className="text-sm text-muted-foreground">Médecin traitant</p>
-                    <p className="font-medium">{report.referringDoctor}</p>
+                    <span className="text-muted-foreground">Service: </span>
+                    <span className="font-medium">{report.service}</span>
                   </div>
                   <div>
-                    <p className="text-sm text-muted-foreground">Patient</p>
-                    <p className="font-medium">{report.patientDetails.name}</p>
-                    <p className="text-xs text-muted-foreground">Né le {report.patientDetails.dob.replace(/\//g, '-')}</p>
+                    <span className="text-muted-foreground">Médecin traitant: </span>
+                    <span className="font-medium">{report.referringDoctor}</span>
                   </div>
                 </div>
               </CardContent>

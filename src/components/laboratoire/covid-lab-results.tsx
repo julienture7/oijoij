@@ -3,8 +3,10 @@ import React, { useEffect, useState } from "react";
 import { format } from "date-fns";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { AlertTriangle, Bug } from "lucide-react";
-import type { CovidLabReport } from "@/data/types";
+import { AlertTriangle, Bug, FileText, UserCircle } from "lucide-react"; // Added FileText, UserCircle
+import type { CovidLabReport, LabTest } from "@/data/types"; // Added LabTest for status typing
+import { getStatusColor, getStatusBadgeColor } from "@/lib/lab-utils"; // Import highlighting utils
+import Link from "next/link"; // Import Link
 
 interface CovidLabResultsProps {
   className?: string;
@@ -74,25 +76,32 @@ export function CovidLabResults({ className }: CovidLabResultsProps) {
 
   // Use the fetched report data
   const report = reportData;
-  const isPositive = report.sections.some(section =>
-    section.overallResult?.toLowerCase() === "positive"
-  );
+  // Determine overall status based on the first section's overallResult for simplicity
+  // More robust logic might be needed if sections can have conflicting results
+  const overallStatus = report.sections[0]?.overallResult?.toLowerCase() as LabTest['status'] || "unknown";
 
   return (
     <div className={className}>
       <Card>
         <CardHeader>
-          <div className="flex items-center justify-between">
+          <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2">
             <div>
-              <CardTitle className="text-2xl">{report.reportName}</CardTitle>
-              <CardDescription>
+              <CardTitle className="text-2xl flex items-center">
+                <FileText size={28} className="mr-3 text-primary/80" />
+                {report.reportName}
+              </CardTitle>
+              <CardDescription className="mt-1">
                 Test effectué le {format(new Date(report.examinationDate), "dd/MM/yyyy")} à {report.samplingTime}
+                {report.referenceNumber && <span className="ml-2 text-xs">(Réf: {report.referenceNumber})</span>}
               </CardDescription>
             </div>
             <Badge
-              className={`text-md px-3 py-1 ${isPositive ? "bg-red-100 text-red-700 hover:bg-red-100" : "bg-green-100 text-green-700 hover:bg-green-100"}`}
+              variant="outline"
+              className={`text-lg px-4 py-1.5 mt-2 sm:mt-0 ${getStatusBadgeColor(overallStatus)}`}
             >
-              {isPositive ? "POSITIF" : "NÉGATIF"}
+              {overallStatus === "positive" ? "POSITIF" : 
+               overallStatus === "negative" ? "NÉGATIF" : 
+               overallStatus.charAt(0).toUpperCase() + overallStatus.slice(1)}
             </Badge>
           </div>
         </CardHeader>
@@ -102,32 +111,47 @@ export function CovidLabResults({ className }: CovidLabResultsProps) {
               <Card>
                 <CardHeader className="pb-2">
                   <CardTitle className="text-lg flex items-center gap-2">
-                    <Bug className="h-5 w-5" />
-                    Détails du Test
+                    <UserCircle className="h-5 w-5 text-primary/70" />
+                    Patient & Test
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <div className="space-y-3">
+                  <div className="space-y-2 text-sm">
                     <div>
-                      <p className="text-sm text-muted-foreground">Laboratoire</p>
-                      <p className="font-medium">{report.labName}</p>
+                      <span className="text-muted-foreground">Patient: </span>
+                      <span className="font-medium">{report.patientDetails.name}</span>
                     </div>
                     <div>
-                      <p className="text-sm text-muted-foreground">Type de procédure</p>
-                      <p className="font-medium">{report.procedureType}</p>
+                      <span className="text-muted-foreground">Né(e) le: </span>
+                      <span className="font-medium">{format(new Date(report.patientDetails.dob.replace(/(\d{2})−(\d{2})−(\d{4})/, '$3-$2-$1')), "dd/MM/yyyy")}</span>
+                    </div>
+                     <div>
+                      <span className="text-muted-foreground">Sexe: </span>
+                      <span className="font-medium">{report.patientDetails.sex === "M" ? "Masculin" : "Féminin"}</span>
+                    </div>
+                    <hr className="my-2"/>
+                    <div>
+                      <span className="text-muted-foreground">Laboratoire: </span>
+                      <span className="font-medium">{report.labName}</span>
                     </div>
                     <div>
-                      <p className="text-sm text-muted-foreground">Type d'échantillon</p>
-                      <p className="font-medium">{report.sampleType}</p>
+                      <span className="text-muted-foreground">Type de procédure: </span>
+                      <span className="font-medium">{report.procedureType}</span>
                     </div>
                     <div>
-                      <p className="text-sm text-muted-foreground">Médecin</p>
-                      <p className="font-medium">{report.doctor}</p>
+                      <span className="text-muted-foreground">Type d'échantillon: </span>
+                      <span className="font-medium">{report.sampleType}</span>
                     </div>
-                    {report.referenceNumber && (
+                    <div>
+                      <span className="text-muted-foreground">Médecin: </span>
+                      <span className="font-medium">{report.doctor}</span>
+                    </div>
+                    {report.filePath && (
                       <div>
-                        <p className="text-sm text-muted-foreground">N° de référence</p>
-                        <p className="font-medium">{report.referenceNumber}</p>
+                        <span className="text-muted-foreground">Document: </span>
+                        <Link href={`/labs/${report.filePath.split(';')[0]}`} target="_blank" legacyBehavior>
+                          <a className="font-medium text-primary hover:underline">Voir PDF</a>
+                        </Link>
                       </div>
                     )}
                   </div>

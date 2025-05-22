@@ -6,8 +6,9 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip } from "recharts";
+import Link from "next/link"; // Added for filePath
 
-import { getStatusBadgeColor } from "@/lib/lab-utils";
+import { getStatusBadgeColor, getStatusColor } from "@/lib/lab-utils"; // Added getStatusColor
 import type { LabTest, MycotoxinLabReport } from "@/data/types";
 
 interface MycotoxinLabResultsProps {
@@ -82,27 +83,48 @@ export function MycotoxinLabResults({ className }: MycotoxinLabResultsProps) {
   const testSummary = report.sections.reduce(
     (acc, section) => {
       section.tests.forEach(test => {
-        if (test.status === "high") acc.abnormal++;
-        else if (test.status === "normal") acc.normal++;
+        // Ensure status is one of the expected values before incrementing
+        if (test.status === "high" || test.status === "abnormal" || test.status === "positive") {
+          acc.abnormal++;
+        } else if (test.status === "normal" || test.status === "negative") {
+          acc.normal++;
+        } else {
+          // Optionally handle other statuses or count them as 'other'
+          acc.other++;
+        }
       });
       return acc;
     },
-    { normal: 0, abnormal: 0 }
+    { normal: 0, abnormal: 0, other: 0 }
   );
 
   const pieData = [
-    { name: "Normal", value: testSummary.normal, color: "#10b981" },
-    { name: "Élevé", value: testSummary.abnormal, color: "#ef4444" }
+    { name: "Normal", value: testSummary.normal, color: "hsl(var(--health-normal))" },
+    { name: "Élevé/Anormal", value: testSummary.abnormal, color: "hsl(var(--health-abnormal))" }
   ];
+  if (testSummary.other > 0) {
+    pieData.push({ name: "Autre", value: testSummary.other, color: "hsl(var(--muted-foreground))"});
+  }
+
 
   return (
     <div className={className}>
       <Card className="mb-6">
         <CardHeader>
-          <CardTitle className="text-2xl">{report.reportName}</CardTitle>
-          <CardDescription>
-            Analyse de mycotoxines du {format(new Date(report.reportDate), "dd/MM/yyyy")}
-          </CardDescription>
+          <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2">
+            <div>
+              <CardTitle className="text-2xl">{report.reportName}</CardTitle>
+              <CardDescription>
+                Analyse de mycotoxines du {format(new Date(report.reportDate), "dd/MM/yyyy")}
+                {report.receptionNumber && <span className="ml-2 text-xs"> (Réf: {report.receptionNumber})</span>}
+              </CardDescription>
+            </div>
+            {report.filePath && (
+               <Link href={`/labs/${report.filePath.split(';')[0]}`} target="_blank" legacyBehavior>
+                <a className="text-sm text-primary hover:underline whitespace-nowrap">Voir PDF original</a>
+              </Link>
+            )}
+          </div>
         </CardHeader>
         <CardContent>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
@@ -126,16 +148,16 @@ export function MycotoxinLabResults({ className }: MycotoxinLabResultsProps) {
                           <Cell key={`cell-${index}`} fill={entry.color} />
                         ))}
                       </Pie>
-                      <Tooltip formatter={(value) => [value, "Tests"]} />
+                      <Tooltip formatter={(value, name) => [value, name]} />
                     </PieChart>
                   </ResponsiveContainer>
                   <div className="mt-2 text-sm text-center">
                     {testSummary.abnormal > 0 ? (
-                      <span className="font-medium text-destructive">
+                      <span className={`font-medium ${getStatusColor("high")}`}>
                         {testSummary.abnormal} mycotoxine{testSummary.abnormal > 1 ? "s" : ""} élevée{testSummary.abnormal > 1 ? "s" : ""}
                       </span>
                     ) : (
-                      <span className="font-medium text-green-600">Tous les résultats sont normaux</span>
+                      <span className={`font-medium ${getStatusColor("normal")}`}>Tous les résultats sont normaux</span>
                     )}
                   </div>
                 </CardContent>
@@ -145,7 +167,7 @@ export function MycotoxinLabResults({ className }: MycotoxinLabResultsProps) {
             <div className="col-span-1 md:col-span-2">
               <Card className="h-full">
                 <CardHeader className="pb-2">
-                  <CardTitle className="text-lg">Détails du patient</CardTitle>
+                  <CardTitle className="text-lg">Détails</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <div className="grid grid-cols-2 gap-4">
@@ -205,15 +227,19 @@ export function MycotoxinLabResults({ className }: MycotoxinLabResultsProps) {
                       <tbody>
                         {section.tests.map((test, tIndex) => (
                           <tr key={tIndex} className="border-b last:border-0">
-                            <td className="py-3">{test.name}</td>
-                            <td className="py-3 text-right">{test.value} {test.unit}</td>
+                            <td className="py-3 font-medium">{test.name}</td>
+                            <td className={`py-3 text-right font-semibold ${getStatusColor(test.status as LabTest["status"])}`}>
+                                {test.value} {test.unit}
+                            </td>
                             <td className="py-3 text-right text-muted-foreground">{test.referenceRange}</td>
                             <td className="py-3 text-center">
                               <Badge
                                 variant="outline"
-                                className={getStatusBadgeColor(test.status as LabTest["status"])}
+                                className={`text-xs ${getStatusBadgeColor(test.status as LabTest["status"])}`}
                               >
-                                {test.status === "normal" ? "Normal" : "Élevé"}
+                                {test.status === "normal" || test.status === "negative" ? "Normal" : 
+                                 test.status === "high" || test.status === "positive" || test.status === "abnormal" ? "Élevé" :
+                                 test.status ? test.status.charAt(0).toUpperCase() + test.status.slice(1) : "N/A"}
                               </Badge>
                             </td>
                           </tr>
@@ -225,22 +251,39 @@ export function MycotoxinLabResults({ className }: MycotoxinLabResultsProps) {
               </Card>
             ))}
           </div>
+          
+          {report.labComments && report.labComments.length > 0 && (
+             <Card className="mt-6">
+              <CardHeader className="pb-2">
+                <CardTitle className="text-md">Commentaires du laboratoire</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <ul className="list-disc pl-5 text-xs text-muted-foreground space-y-1">
+                  {report.labComments.map((comment, idx) => (
+                    <li key={idx}>{comment}</li>
+                  ))}
+                </ul>
+              </CardContent>
+            </Card>
+          )}
 
           {Object.keys(report.interpretiveInformation).length > 0 && (
             <Card className="mt-6">
               <CardHeader>
-                <CardTitle className="text-lg">Informations Interprétatives</CardTitle>
+                <CardTitle className="text-lg">Interprétation des Mycotoxines</CardTitle>
                 <CardDescription>
-                  Détails sur la signification des mycotoxines détectées
+                  Informations sur les mycotoxines potentiellement détectées et leurs implications.
                 </CardDescription>
               </CardHeader>
               <CardContent>
-                <Accordion type="single" collapsible>
+                <Accordion type="multiple" className="w-full">
                   {Object.entries(report.interpretiveInformation).map(([toxin, info], index) => (
                     <AccordionItem key={index} value={`item-${index}`}>
-                      <AccordionTrigger className="font-semibold">{toxin}</AccordionTrigger>
-                      <AccordionContent>
-                        <p className="text-sm whitespace-pre-line">{info}</p>
+                      <AccordionTrigger className="font-medium text-primary/90 hover:no-underline">
+                        {toxin}
+                      </AccordionTrigger>
+                      <AccordionContent className="prose prose-sm max-w-none dark:prose-invert whitespace-pre-line text-muted-foreground">
+                        <p>{info}</p>
                       </AccordionContent>
                     </AccordionItem>
                   ))}
@@ -250,9 +293,9 @@ export function MycotoxinLabResults({ className }: MycotoxinLabResultsProps) {
           )}
 
           {report.overallConclusion && (
-            <div className="mt-6 p-4 bg-muted rounded-lg border">
-              <h3 className="font-semibold mb-2">Conclusion</h3>
-              <p>{report.overallConclusion}</p>
+            <div className="mt-6 p-4 bg-primary/5 rounded-lg border border-primary/20">
+              <h3 className="font-semibold mb-2 text-primary">Conclusion Générale</h3>
+              <p className="text-sm text-primary/80">{report.overallConclusion}</p>
             </div>
           )}
         </CardContent>

@@ -107,6 +107,19 @@ export function NeckLabResults({ className }: NeckLabResultsProps) {
                       <p>{report.labName}</p>
                       {report.clinic && <p className="text-sm text-muted-foreground">{report.clinic}</p>}
                       {report.doctor && <p className="text-sm text-muted-foreground mt-1">Médecin: {report.doctor}</p>}
+                      {report.referenceNumber && <p className="text-xs text-muted-foreground mt-1">Réf: {report.referenceNumber}</p>}
+                      {report.filePath && (
+                        <p className="text-xs mt-1">
+                          <a
+                            href={`/labs/${report.filePath}`} // Assuming files are in public/labs
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-primary hover:underline"
+                          >
+                            Voir PDF original
+                          </a>
+                        </p>
+                      )}
                     </div>
                   </div>
 

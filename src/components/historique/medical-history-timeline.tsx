@@ -6,24 +6,48 @@ interface MedicalHistoryTimelineProps {
   events: MedicalEvent[];
 }
 
-export function MedicalHistoryTimeline({ events }: MedicalHistoryTimelineProps) {
-  // Sort events: by year if number, or keep original order for string "years"
-  // This simple sort might need refinement if "year" strings are complex
-  const sortedEvents = [...events].sort((a, b) => {
-    const yearA = typeof a.year === 'number' ? a.year : Number.POSITIVE_INFINITY; // Push strings to end or handle differently
-    const yearB = typeof b.year === 'number' ? b.year : Number.POSITIVE_INFINITY;
-    if (yearA !== Number.POSITIVE_INFINITY && yearB !== Number.POSITIVE_INFINITY) {
-      return yearA - yearB;
+// Helper function to parse year/age strings for sorting
+function parseYearForSorting(year: string | number): number {
+  if (typeof year === 'number') {
+    return year;
+  }
+  if (typeof year === 'string') {
+    // Handle "X ans"
+    const ageMatch = year.match(/^(\d+)\s*an(s)?$/i);
+    if (ageMatch && ageMatch[1]) {
+      return parseInt(ageMatch[1], 10);
     }
-    // Basic sort for string years like "12 ans", "15 ans" if they are consistent
-    if (typeof a.year === 'string' && typeof b.year === 'string') {
-        const numA = Number.parseInt(a.year.split(' ')[0]);
-        const numB = Number.parseInt(b.year.split(' ')[0]);
-        if (!isNaN(numA) && !isNaN(numB)) return numA - numB;
+    // Handle "X-Y ans" - use the lower bound
+    const ageRangeMatch = year.match(/^(\d+)-(\d+)\s*an(s)?$/i);
+    if (ageRangeMatch && ageRangeMatch[1]) {
+      return parseInt(ageRangeMatch[1], 10);
     }
-    return 0; // Keep original order for mixed or complex strings
-  });
+    // Try to parse as a plain number (year) if it's a string like "2023"
+    const directNumberMatch = year.match(/^\d{4}$/);
+     if (directNumberMatch) {
+        const num = parseInt(year, 10);
+        if (!isNaN(num)) return num;
+    }
+  }
+  // For purely descriptive strings or unparseable formats, place them at the end.
+  // Consider a secondary sorting key if these need specific ordering among themselves.
+  return Number.POSITIVE_INFINITY;
+}
 
+export function MedicalHistoryTimeline({ events }: MedicalHistoryTimelineProps) {
+  const sortedEvents = [...events].sort((a, b) => {
+    const valA = parseYearForSorting(a.year);
+    const valB = parseYearForSorting(b.year);
+
+    // If both are descriptive or unparseable, maintain original relative order or sort by title
+    if (valA === Number.POSITIVE_INFINITY && valB === Number.POSITIVE_INFINITY) {
+      // Optionally, add secondary sort criterion here, e.g., by title
+      // For now, keep original relative order for these specific cases
+      return 0; 
+    }
+    
+    return valA - valB;
+  });
 
   return (
     <div className="relative pl-8 ">
