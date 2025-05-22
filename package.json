@@ -7,7 +7,8 @@
     "build": "NEXT_SKIP_TYPE_CHECK=1 next build --no-lint",
     "start": "next start",
     "lint": "bunx biome lint --write && bunx tsc --noEmit",
-    "format": "bunx biome format --write"
+    "format": "bunx biome format --write",
+    "postinstall": "patch-package"
   },
   "dependencies": {
     "@radix-ui/react-accordion": "^1.2.10",
@@ -51,6 +52,7 @@
     "eslint-config-next": "15.1.7",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
-    "typescript": "^5"
+    "typescript": "^5",
+    "patch-package": "^8.0.0"
   }
 }

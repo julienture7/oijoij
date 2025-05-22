@@ -1,0 +1,46 @@
+diff --git a/node_modules/next/dist/client/components/react-dev-overlay/ui/components/shadow-portal.js b/node_modules/next/dist/client/components/react-dev-overlay/ui/components/shadow-portal.js
+index 1a97ca5..b1b04ae 100644
+--- a/node_modules/next/dist/client/components/react-dev-overlay/ui/components/shadow-portal.js
++++ b/node_modules/next/dist/client/components/react-dev-overlay/ui/components/shadow-portal.js
+@@ -16,12 +16,13 @@ function ShadowPortal(param) {
+     let { children } = param;
+     let portalNode = _react.useRef(null);
+     let shadowNode = _react.useRef(null);
+-    let [, forceUpdate] = _react.useState();
+-    // Don't use useLayoutEffect here, as it will cause warnings during SSR in React 18.
+-    // Don't use useSyncExternalStore as an SSR gate unless you verified it doesn't
+-    // downgrade a Transition of the initial root render to a sync render or
+-    // we can assure the root render is not a Transition.
++    const [isMounted, setIsMounted] = _react.useState(false); // Replaced forceUpdate with isMounted
+     _react.useEffect(()=>{
++        setIsMounted(true); // Set isMounted to true first
++        // Ensure DOM manipulations only happen on the client side
++        if (typeof window === 'undefined') {
++            return;
++        }
+         const ownerDocument = document;
+         portalNode.current = ownerDocument.createElement('nextjs-portal');
+         // load default color preference from localstorage
+@@ -39,14 +40,19 @@ function ShadowPortal(param) {
+             mode: 'open'
+         });
+         ownerDocument.body.appendChild(portalNode.current);
+-        forceUpdate({});
+         return ()=>{
+             if (portalNode.current && portalNode.current.ownerDocument) {
+                 portalNode.current.ownerDocument.body.removeChild(portalNode.current);
++                portalNode.current = null; // Clean up ref
+             }
++            shadowNode.current = null; // Clean up ref
+         };
+-    }, []);
+-    return shadowNode.current ? /*#__PURE__*/ (0, _reactdom.createPortal)(children, shadowNode.current) : null;
++    }, []); // Empty dependency array ensures this runs once on mount and cleanup on unmount
++    // Render portal only if mounted and shadowNode is available
++    if (!isMounted || !shadowNode.current) {
++        return null;
++    }
++    return /*#__PURE__*/ (0, _reactdom.createPortal)(children, shadowNode.current);
+ }
+ 
+ if ((typeof exports.default === 'function' || (typeof exports.default === 'object' && exports.default !== null)) && typeof exports.default.__esModule === 'undefined') {
